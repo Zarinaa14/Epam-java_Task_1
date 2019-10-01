@@ -3,6 +3,9 @@ package com.company;
 import java.util.Scanner;
 
 public class Main {
+
+
+
 //Вычислить значения функции на отрезке [а,b] c шагом h: 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
