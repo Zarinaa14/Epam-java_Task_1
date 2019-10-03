@@ -124,14 +124,12 @@ public class Main {
     // разбивает на слова и вызывает  arraySortBySymbol() из слов splitIntoWords
     private static String checkArraySort(String[] words) {
         int count = 0;
+        int co=2;
+        char symbol='l';
         for (int i = 0; i < words.length; i++) {
-            count += calculateCharInWord(words[i]);
-            if (count >= 2 || count == 0) {
-                // System.out.println("Слова отсортированы по алфавиту: ");
-                arraySortAlphabet(words);
-            } else {//System.out.println("Слова отсортированы по заданному символу: ");
-                arraySortBySymbol(words);
-            }
+            count = calculateCharInWord(words[i]);
+            sortBySymbol(words,symbol);
+
         }
 
         String str = printSortWordsInSentences(words);
@@ -151,17 +149,35 @@ public class Main {
 
     }
 
-    private static String[] arraySortBySymbol(String[] arrayWords) {
-        int i = 0;
-        for (int j = 0; j < arrayWords.length; j++) {
-            if (!(isExistCharInWord(arrayWords[j]))) {
 
-                String word = arrayWords[i];
-                arrayWords[i] = arrayWords[j];
-                arrayWords[j] = word;
-                i++;
+
+
+
+    private static String[] sortBySymbol(String[] arrayWords,char symbol) {
+        int count = 0;
+        int co=2;
+        for (int i = 0; i < arrayWords.length - 1; i++) {
+            for (int j = 0; j < arrayWords.length - 1 - i; j++) {
+                int curr = calculateCharInWord2(arrayWords[j],symbol);
+                int curr_1 = calculateCharInWord2(arrayWords[j+1],symbol);
+                count = calculateCharInWord(arrayWords[j]);
+                if(co==count){
+                    String[] arr = {arrayWords[j], arrayWords[j + 1]};
+                    arraySortAlphabet(arr);
+                    for (int k = 0; k < arr.length ; k++) {
+                        arrayWords[j]=arr[0];
+                        arrayWords[j+1]=arr[1];
+                    }
+                }
+
+
+                if (curr < curr_1) {
+                    String tmp = arrayWords[j];
+                    arrayWords[j] = arrayWords[j + 1];
+                    arrayWords[j + 1] = tmp;
+                }
+
             }
-
         }
         return arrayWords;
     }
@@ -177,6 +193,7 @@ public class Main {
         return false;
     }
 
+
     //  считает сколько заданных символов в слове, если нет то 0
     private static int calculateCharInWord(String string) {
         int count = 0;
@@ -189,10 +206,21 @@ public class Main {
         }
         return count;
     }
+    private static int calculateCharInWord2(String string,char symbol) {
+        int count = 0;
+        for (int i = 0; i < string.length(); i++) {
+            if ((string.toLowerCase().charAt(i) == symbol)) {
+                //System.out.print(i);
+                count++;
+
+            }
+        }
+        return count;
+    }
 
 
     public static void main(String[] args) {
-        String line = "Lorem Ipsum cis simply adummy text bof the printing.Ytyy is.RErrrr.    RErrrr.    RErrrr.RErrrr.";
+        String line = "Lorem Ipsum cis limpyl adulmmyl text bof the printing.Ytyy is.RErrrr.    RErrrr.    RErrrr.RErrrr.";
         Scanner in = new Scanner(System.in);
         System.out.println("Нажмите 1, если хотите отсортировать абзацы по количеству предложений");
         System.out.println("Нажмите 2, если хотите в каждом предложении отсортировать слова по длине");
