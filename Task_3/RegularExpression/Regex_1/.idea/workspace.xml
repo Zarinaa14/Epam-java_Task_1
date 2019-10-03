@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="18d5bbca-98a4-4dd1-9a3c-30c81c9a6f12" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../StringAsObject/StringObject_4/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Task_1/cycles/Task_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task_1/cycles/Task_1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Task_1/cycles/Task_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task_1/cycles/Task_2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Task_2/Sorting arrays/Sort_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task_2/Sorting arrays/Sort_1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../StringAsObject/StringObject_4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../StringAsObject/StringObject_4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../StringAsObject/StringObject_4/out/production/StringObject_4/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../StringAsObject/StringObject_4/out/production/StringObject_4/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../StringAsObject/StringObject_4/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../StringAsObject/StringObject_4/src/com/company/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="18d5bbca-98a4-4dd1-9a3c-30c81c9a6f12" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +21,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
+            <state relative-caret-position="618">
               <caret line="245" selection-start-line="245" selection-end-line="245" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -179,7 +169,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
+        <state relative-caret-position="618">
           <caret line="245" selection-start-line="245" selection-end-line="245" />
           <folding>
             <element signature="imports" expanded="true" />
