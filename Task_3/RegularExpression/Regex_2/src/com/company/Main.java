@@ -118,7 +118,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         String line = "<notes><to>Вася</to><from>Света</from><heading>Напоминание</heading></notes>";
         String line2 = "<notes><note id = '1'><to>Вася</to><from>Света</from><heading>Напоминание</heading><body>Позвони мне завтра!</body></note><note id ='2'><to>Петя</to><from>Маша</from><heading>Важное напоминание</heading>  <body/> </note> </notes>";
-     
+
 
         int count = 0;
         System.out.println("Введите 1, чтобы запустить анализатор ");

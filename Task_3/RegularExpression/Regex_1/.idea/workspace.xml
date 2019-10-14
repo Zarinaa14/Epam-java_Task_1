@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="18d5bbca-98a4-4dd1-9a3c-30c81c9a6f12" name="Default Changelist" comment="" />
+    <list default="true" id="18d5bbca-98a4-4dd1-9a3c-30c81c9a6f12" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../Task_1/cycles/Task_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task_1/cycles/Task_1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Task_1/cycles/Task_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task_1/cycles/Task_2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StringAsObject/StringObject_4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../StringAsObject/StringObject_4/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

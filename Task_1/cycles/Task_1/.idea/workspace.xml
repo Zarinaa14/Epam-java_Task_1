@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b7cfed11-ed41-4d27-9359-5f5d9797e71d" name="Default Changelist" comment="" />
+    <list default="true" id="b7cfed11-ed41-4d27-9359-5f5d9797e71d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Task_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Task_2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Task_3/RegularExpression/Regex_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task_3/RegularExpression/Regex_1/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
