@@ -2,85 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eaaa76f8-a3da-4303-be67-f03557fd8102" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Linear programs/Task_1_2/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Linear programs/Task_1_5/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Linear programs/Task_1_5/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Linear programs/Task_1_6/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Linear programs/Task_1_6/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cycles/Task_1/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cycles/Task_1/src/zaryna/epam/training/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cycles/Task_2/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cycles/Task_3/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cycles/Task_3/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cycles/Task_4/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cycles/task_6/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cycles/task_6/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cycles/task_6/src/com/company/zaryna/epam/training/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Task4/AirlineClass/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task4/AirlineClass/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Task5/Payment/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Task5/Payment/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Task5/Payment/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Task5/Payment/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Task5/Payment/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Task5/Payment/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Task5/Payment/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Task5/Payment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task5/Payment/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Task5/Payment/Payment.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Task5/Payment/out/production/Payment/META-INF/Payment.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Task5/Payment/out/production/Payment/com/company/ClassProduct.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Task5/Payment/out/production/Payment/com/company/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Task5/Payment/out/production/Payment/com/company/Payment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Task5/Payment/out/production/Payment/com/company/PrintInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Task5/Payment/out/production/Payment/com/company/ProductNameComparator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Task5/Payment/out/production/Payment/com/company/ProductPriceComparator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Task5/Payment/out/production/Payment/com/company/ProductWeightComparator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Task5/Payment/src/com/company/com/company/epam/training/ClassProduct.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Task5/Payment/src/com/company/com/company/epam/training/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Task5/Payment/src/com/company/com/company/epam/training/Payment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Task5/Payment/src/com/company/com/company/epam/training/PrintInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Task5/Payment/src/com/company/com/company/epam/training/ProductNameComparator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Task5/Payment/src/com/company/com/company/epam/training/ProductPriceComparator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Task5/Payment/src/com/company/com/company/epam/training/ProductWeightComparator.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cycles/task_6/src/com/epam/training/zaryna/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Linear programs/Task_1_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Linear programs/Task_1_1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Linear programs/Task_1_1/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Linear programs/Task_1_1/src/com/company/com/zaryna/epam/training/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Linear programs/Task_1_1/src/com/company/com/zaryna/epam/training/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Linear programs/Task_1_1/src/com/epam/training/zaryna/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Linear programs/Task_1_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Linear programs/Task_1_2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Linear programs/Task_1_2/out/production/Task_1_2/com/company/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Linear programs/Task_1_2/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Linear programs/Task_1_2/src/com/company/epam/training/zaryna/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Linear programs/Task_1_2/src/com/company/epam/training/zaryna/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Linear programs/Task_1_2/src/com/epam/training/zaryna/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Linear programs/Task_1_3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Linear programs/Task_1_3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Linear programs/Task_1_3/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Linear programs/Task_1_3/src/com/company/epam/zaryna/training/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Linear programs/Task_1_3/src/com/company/epam/zaryna/training/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Linear programs/Task_1_3/src/com/epam/training/zaryna/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Linear programs/Task_1_4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Linear programs/Task_1_4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Linear programs/Task_1_4/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Linear programs/Task_1_4/src/com/company/zaryna/epam/training/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Linear programs/Task_1_4/src/com/company/zaryna/epam/training/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Linear programs/Task_1_4/src/com/epam/training/zaryna/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Linear programs/Task_1_5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Linear programs/Task_1_5/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Linear programs/Task_1_5/out/production/Task_1_5/com/company/Task_5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Linear programs/Task_1_5/src/com/company/Task1_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Linear programs/Task_1_5/src/com/company/zaryna/epam/train/Task1_5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Linear programs/Task_1_5/src/com/company/zaryna/epam/train/Task1_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Linear programs/Task_1_5/src/com/epam/training/zaryna/Task1_5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Linear programs/Task_1_6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Linear programs/Task_1_6/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Linear programs/Task_1_6/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Linear programs/Task_1_6/src/com/company/zaryna/epam/training/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Linear programs/Task_1_6/src/com/company/zaryna/epam/training/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Linear programs/Task_1_6/src/com/epam/training/zaryna/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Task_1_1/.idea/workspace.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Task_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Task_1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Task_1/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task_1/src/com/company/zaryna/epam/training/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task_1/src/com/company/zaryna/epam/training/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task_1/src/com/epam/training/zaryna/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/training/epam/zaryna/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/training/epam/zaryna/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/epam/training/zaryna/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Task_3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Task_3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Task_3/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task_3/src/com/company/zaryna/epam/training/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Task_4/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task_4/src/com/company/zaryna/epam/training/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task_3/src/com/company/zaryna/epam/training/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task_3/src/com/epam/training/zaryna/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task_4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Task_4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task_4/src/com/company/zaryna/epam/training/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task_4/src/com/epam/training/zaryna/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task_5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Task_5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task_5/src/com/company/zaryna/epam/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task_5/src/com/epam/training/zaryna/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../cycles/Task_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../cycles/Task_1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cycles/Task_1/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cycles/Task_1/src/zaryna/epam/training/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cycles/Task_1/src/com/epam/training/zaryna/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../cycles/Task_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../cycles/Task_2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cycles/Task_2/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cycles/Task_2/src/com/company/epam/train/zaryna/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cycles/Task_2/src/com/company/epam/train/zaryna/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cycles/Task_2/src/com/epam/training/zaryna/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../cycles/Task_3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../cycles/Task_3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cycles/Task_3/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cycles/Task_3/src/com/company/epam/training/zaryna/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cycles/Task_3/src/com/company/epam/training/zaryna/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cycles/Task_3/src/com/epam/training/zaryna/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../cycles/Task_4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../cycles/Task_4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cycles/Task_4/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cycles/Task_4/src/com/company/zaryna/com/epam/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cycles/Task_4/src/com/company/zaryna/com/epam/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cycles/Task_4/src/com/epam/training/zaryna/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../cycles/Task_5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../cycles/Task_5/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cycles/Task_5/out/production/Task_1_16/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cycles/Task_5/out/production/Task_1_16/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cycles/Task_5/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cycles/Task_5/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cycles/Task_5/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cycles/Task_5/src/com/epam/training/zaryna/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../cycles/Task_7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../cycles/Task_7/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cycles/Task_7/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cycles/Task_7/src/com/company/zaryna/java/epam/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cycles/Task_7/src/com/company/zaryna/java/epam/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cycles/Task_7/src/com/epam/training/zaryna/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../cycles/Task_8/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../cycles/Task_8/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cycles/Task_8/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cycles/Task_8/src/com/company/zaryna/epam/training/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cycles/task_6/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../cycles/task_6/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cycles/Task_8/src/com/company/zaryna/epam/training/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cycles/Task_8/src/com/epam/training/zaryna/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../cycles/task_6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../cycles/task_6/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cycles/task_6/src/com/company/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cycles/task_6/task_17.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../cycles/task_6/task_6.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cycles/task_6/out/production/task_6/com/company/zaryna/epam/training/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cycles/task_6/src/com/company/zaryna/epam/training/Main.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -99,10 +61,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/company/training/epam/zaryna/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/com/epam/training/zaryna/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+            <state relative-caret-position="154">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -117,6 +79,7 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
         <option value="$PROJECT_DIR$/src/com/company/training/epam/zaryna/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/epam/training/zaryna/Main.java" />
       </list>
     </option>
   </component>
@@ -146,6 +109,12 @@
               <item name="Task_2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Task_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Task_2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="zaryna" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -170,7 +139,7 @@
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.training.epam.zaryna.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.epam.training.zaryna.Main" />
       <module name="Task_1_8" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
@@ -200,9 +169,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25302014" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25637585" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -233,10 +201,10 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/company/training/epam/zaryna/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/epam/training/zaryna/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        <state relative-caret-position="154">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
