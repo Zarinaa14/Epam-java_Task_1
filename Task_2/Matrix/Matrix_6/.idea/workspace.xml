@@ -1,7 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="405e9606-8030-494a-9595-db298580716f" name="Default Changelist" comment="" />
+    <list default="true" id="405e9606-8030-494a-9595-db298580716f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Decomposition/Program_3/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Decomposition/Program_3/src/com/epam/training/zaryna/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Decomposition/Program_4/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Decomposition/Program_5/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Decomposition/Program_5/src/com/epam/training/zaryna/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Decomposition/Program_6/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Decomposition/Program_6/src/com/epam/training/zaryna/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Decomposition/Program_7/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Decomposition/Program_7/src/com/epam/training/zaryna/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Decomposition/Program_8/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Decomposition/Program_8/src/com/epam/training/zaryna/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Decomposition/Program_9/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Decomposition/Program_9/src/com/epam/training/zaryna/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Matrix11/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Matrix11/src/com/epam/training/zaryna/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Matrix9/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Matrix_1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Matrix_10/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Matrix_12/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Matrix_2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Matrix_3/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Matrix_4/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Matrix_4/src/com/epam/training/zaryna/Matrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Matrix_5/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/epam/training/zaryna/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Matrix_8/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Task_1/cycles/Task_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task_1/cycles/Task_1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Arrays/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arrays/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Arrays/Task2_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arrays/Task2_1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Arrays/Task2_1/src/com/epam/training/zaryna/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arrays/Task2_1/src/com/epam/training/zaryna/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Arrays/Task2_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arrays/Task2_2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Arrays/Task2_3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arrays/Task2_3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Arrays/Task2_3/src/com/epam/training/zaryna/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arrays/Task2_3/src/com/epam/training/zaryna/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Arrays/Task_2_6zad/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arrays/Task_2_6zad/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Arrays/Task_2_6zad/src/com/epam/training/zaryna/Prime_number.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arrays/Task_2_6zad/src/com/epam/training/zaryna/Prime_number.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Decomposition/Program_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Decomposition/Program_1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Decomposition/Program_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Decomposition/Program_2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Decomposition/Program_3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Decomposition/Program_3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Decomposition/Program_3/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Decomposition/Program_4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Decomposition/Program_4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Decomposition/Program_4/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Decomposition/Program_4/src/com/epam/training/zaryna/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Decomposition/Program_5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Decomposition/Program_5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Decomposition/Program_5/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Decomposition/Program_6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Decomposition/Program_6/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Decomposition/Program_6/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Decomposition/Program_7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Decomposition/Program_7/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Decomposition/Program_7/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Decomposition/Program_8/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Decomposition/Program_8/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Decomposition/Program_8/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Decomposition/Program_9/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Decomposition/Program_9/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Decomposition/Program_9/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Matrix11/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Matrix11/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Matrix11/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Matrix9/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Matrix9/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Matrix9/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Matrix9/src/com/epam/training/zaryna/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Matrix_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Matrix_1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Matrix_1/src/com/company/Matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Matrix_1/src/com/epam/training/zaryna/Matrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Matrix_10/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Matrix_10/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Matrix_10/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Matrix_10/src/com/epam/training/zaryna/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Matrix_12/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Matrix_12/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Matrix_13/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Matrix_13/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Matrix_14/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Matrix_14/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Matrix_14/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Matrix_14/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Matrix_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Matrix_2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Matrix_2/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Matrix_2/src/com/epam/training/zaryna/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Matrix_3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Matrix_3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Matrix_3/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Matrix_3/src/com/epam/training/zaryna/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Matrix_4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Matrix_4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Matrix_4/src/com/company/Matrix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Matrix_5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Matrix_5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Matrix_5/src/com/company/Matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Matrix_5/src/com/company/Matrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Matrix_7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Matrix_7/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Matrix_7/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Matrix_7/src/com/epam/training/zaryna/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Matrix_8/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Matrix_8/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Matrix_8/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Matrix_8/src/com/epam/training/zaryna/Main.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,8 +89,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="ElmWorkspace">
     <elmProjects />
@@ -20,20 +98,24 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/com/epam/training/zaryna/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="20" column="61" selection-start-line="20" selection-start-column="61" selection-end-line="20" selection-end-column="61" />
+            <state relative-caret-position="308">
+              <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/epam/training/zaryna/Main.java" />
       </list>
     </option>
   </component>
@@ -43,15 +125,39 @@
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Matrix_6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Matrix_6" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Matrix_6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Matrix_6" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Matrix_6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Matrix_7" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -94,17 +200,13 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25302014" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Elm Compiler" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -112,22 +214,26 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Elm" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="bottom" id="Elm Compiler" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Elm" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/epam/training/zaryna/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="20" column="61" selection-start-line="20" selection-start-column="61" selection-end-line="20" selection-end-column="61" />
+        <state relative-caret-position="308">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
         </state>
       </provider>
     </entry>

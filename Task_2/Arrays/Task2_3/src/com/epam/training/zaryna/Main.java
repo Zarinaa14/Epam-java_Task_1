@@ -1,9 +1,10 @@
 package com.epam.training.zaryna;
+
 import java.util.Scanner;
 
 /**
  * Дан массив действительных чисел, размерность которого N.
- *  Подсчитать, сколько в нем отрицательных, положительных и нулевых элементов.
+ * Подсчитать, сколько в нем отрицательных, положительных и нулевых элементов.
  */
 public class Main {
     public static double[] createArray(int size) {
@@ -49,7 +50,8 @@ public class Main {
         }
         System.out.println(string);
     }
-    public static void printTypeNumber(int a,int b,int c){
+
+    public static void printTypeNumber(int a, int b, int c) {
         System.out.println("Positive number: " + a);
         System.out.println("Zero numbers: " + c);
         System.out.println("Negative number: " + b);
@@ -69,9 +71,8 @@ public class Main {
             int countNegativeNumber = calculateNegativeNumber(array);
             int countZeroNumber = calculateZeroNumber(array);
             printArray(array);
-            printTypeNumber(countPositiveNumber,countNegativeNumber,countZeroNumber);
-        }
-            else {
+            printTypeNumber(countPositiveNumber, countNegativeNumber, countZeroNumber);
+        } else {
             System.out.println("Введите больше нуля");
         }
     }
