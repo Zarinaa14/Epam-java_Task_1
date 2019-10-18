@@ -1,4 +1,4 @@
-package com.company;
+package com.epam.training.zaryna;
 //В строке найти количество цифр
 public class Main {
 

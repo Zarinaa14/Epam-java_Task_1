@@ -1,15 +1,11 @@
-package com.company;
+package com.epam.training.zaryna;
 
-import java.util.regex.*;
-import java.util.Scanner;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
-// Cоздать приложение, разбирающее текст (текст хранится в строке) и позволяющее выполнять с текстом три различных операции:
-// отсортировать абзацы по количеству предложений;
-// в каждом предложении отсортировать слова по длине;
-// отсортировать лексемы в предложении по убыванию количества вхождений заданного символа, а в случае равенства – по алфавиту.
-public class Main {
+public class Action {
     //сортирует абзацы по количеству предложений
-    private static String[] operation_1(String string) {
+    public String[] sortTheParagraphs(String string) {
         String[] paragraphs = string.split("   ");//абзац - три пробела
         for (int i = 0; i < paragraphs.length - 1; i++) {
             for (int j = 0; j < paragraphs.length - 1 - i; j++) {
@@ -27,7 +23,7 @@ public class Main {
     }
 
     //Считает кол-во предложений в тексте
-    public static int getNumOfSentences(String string) {
+    public int getNumOfSentences(String string) {
         String pattern = "([.!?])([A-Z]*)";
         Pattern r = Pattern.compile(pattern);  // Create a Pattern object
         Matcher m = r.matcher(string);   // Now create matcher object.
@@ -39,7 +35,7 @@ public class Main {
         return count;
     }
 
-    private static void printSortParagraphs(String[] paragraphs) {
+    public void printSortParagraphs(String[] paragraphs) {
         System.out.println("абзацы  отсортированы по количеству предложений: ");
         for (int i = 0; i < paragraphs.length; i++) {
             int count = i + 1;
@@ -50,7 +46,7 @@ public class Main {
 
     //задание 2
     //возвращает StringBuilder из массива предложений и вызывает функцию sortLine
-    private static void task2(String[] stringArray) {
+    public void task2(String[] stringArray) {
         System.out.println("Слова в предложениях отсортированы по длине: ");
         for (int i = 0; i < stringArray.length; i++) {
             StringBuilder builder = new StringBuilder();
@@ -64,13 +60,13 @@ public class Main {
     }
 
     //возвращает массив из предложений
-    private static String[] arrayOfSentences(String string) {
+    public String[] arrayOfSentences(String string) {
         String[] stringArrayOfSentences = string.split("[.!?]");
         return stringArrayOfSentences;
     }
 
     //разбивает на слова и вызывает  arraySort() слов
-    public static String sortLine(String line) {
+    public String sortLine(String line) {
         String[] words = (line + " ").split("\\p{P}?[ \\t\\n\\r]+");
         arraySort(words);
         String str = printSortWordsInSentences(words);
@@ -78,7 +74,7 @@ public class Main {
     }
 
     //сортирует массив из слов по длине от меньшего к большему
-    public static String[] arraySort(String[] arrayWords) {
+    public String[] arraySort(String[] arrayWords) {
         for (int i = 0; i < arrayWords.length; i++) {
             for (int j = 0; j < arrayWords.length; j++) {
                 if (arrayWords[i].length() < arrayWords[j].length()) {
@@ -91,7 +87,7 @@ public class Main {
         return arrayWords;
     }
 
-    public static String printSortWordsInSentences(String[] array) {
+    public String printSortWordsInSentences(String[] array) {
         String str = "";
         for (String word : array) {
             str += word + " ";
@@ -101,7 +97,7 @@ public class Main {
 
     //3
     // возвращает StringBuilder из массива предложений и вызывает функцию sortLine
-    private static String task3(String[] stringArray) {
+    public String task3(String[] stringArray) {
         String result = "";
         for (int i = 0; i < stringArray.length; i++) {
             StringBuilder builder = new StringBuilder();
@@ -116,19 +112,19 @@ public class Main {
         return result;
     }
 
-    private static String[] splitIntoWords(String line) {
+    public String[] splitIntoWords(String line) {
         String[] words = (line + " ").split("\\p{P}?[ \\t\\n\\r]+");
         return words;
     }
 
     // разбивает на слова и вызывает  arraySortBySymbol() из слов splitIntoWords
-    private static String checkArraySort(String[] words) {
+    public String checkArraySort(String[] words) {
         int count = 0;
-        int co=2;
-        char symbol='l';
+        int co = 2;
+        char symbol = 'l';
         for (int i = 0; i < words.length; i++) {
             count = calculateCharInWord(words[i]);
-            sortBySymbol(words,symbol);
+            sortBySymbol(words, symbol);
 
         }
 
@@ -136,7 +132,7 @@ public class Main {
         return str;
     }
 
-    private static void arraySortAlphabet(String[] words) {
+    public void arraySortAlphabet(String[] words) {
         for (int i = 0; i < words.length; i++) {
             for (int j = 0; j < words.length; j++) {
                 if (words[j].toLowerCase().compareTo(words[i].toLowerCase()) > 0) {
@@ -150,23 +146,20 @@ public class Main {
     }
 
 
-
-
-
-    private static String[] sortBySymbol(String[] arrayWords,char symbol) {
+    public String[] sortBySymbol(String[] arrayWords, char symbol) {
         int count = 0;
-        int co=2;
+        int co = 2;
         for (int i = 0; i < arrayWords.length - 1; i++) {
             for (int j = 0; j < arrayWords.length - 1 - i; j++) {
-                int curr = calculateCharInWord2(arrayWords[j],symbol);
-                int curr_1 = calculateCharInWord2(arrayWords[j+1],symbol);
+                int curr = calculateCharInWord2(arrayWords[j], symbol);
+                int curr_1 = calculateCharInWord2(arrayWords[j + 1], symbol);
                 count = calculateCharInWord(arrayWords[j]);
-                if(co==count){
+                if (co == count) {
                     String[] arr = {arrayWords[j], arrayWords[j + 1]};
                     arraySortAlphabet(arr);
-                    for (int k = 0; k < arr.length ; k++) {
-                        arrayWords[j]=arr[0];
-                        arrayWords[j+1]=arr[1];
+                    for (int k = 0; k < arr.length; k++) {
+                        arrayWords[j] = arr[0];
+                        arrayWords[j + 1] = arr[1];
                     }
                 }
 
@@ -183,7 +176,7 @@ public class Main {
     }
 
     //  проверяет есть ли символ в слове
-    private static boolean isExistCharInWord(String string) {
+    public boolean isExistCharInWord(String string) {
         for (int i = 0; i < string.length(); i++) {
             if ((string.toLowerCase().charAt(i) == 'l')) {
                 //System.out.print(i);
@@ -195,7 +188,7 @@ public class Main {
 
 
     //  считает сколько заданных символов в слове, если нет то 0
-    private static int calculateCharInWord(String string) {
+    public int calculateCharInWord(String string) {
         int count = 0;
         for (int i = 0; i < string.length(); i++) {
             if ((string.toLowerCase().charAt(i) == 'l')) {
@@ -206,7 +199,8 @@ public class Main {
         }
         return count;
     }
-    private static int calculateCharInWord2(String string,char symbol) {
+
+    public int calculateCharInWord2(String string, char symbol) {
         int count = 0;
         for (int i = 0; i < string.length(); i++) {
             if ((string.toLowerCase().charAt(i) == symbol)) {
@@ -216,30 +210,5 @@ public class Main {
             }
         }
         return count;
-    }
-
-
-    public static void main(String[] args) {
-        String line = "Lorem Ipsum cis limpyl adulmmyl text bof the printing.Ytyy is.RErrrr.    RErrrr.    RErrrr.RErrrr.";
-        Scanner in = new Scanner(System.in);
-        System.out.println("Нажмите 1, если хотите отсортировать абзацы по количеству предложений");
-        System.out.println("Нажмите 2, если хотите в каждом предложении отсортировать слова по длине");
-        System.out.println("Нажмите 3, если хотите  отсортировать лексемы в предложении по убыванию количества вхождений заданного символа");
-        int k = in.nextInt();
-        if (k != 1 && k != 2 && k != 3) {
-            System.out.println("Пожалуйста, введите 1,2 или 3.");
-        }
-        if (k == 1) {
-            String[] paragraphs = operation_1(line);
-            printSortParagraphs(paragraphs);
-        }
-        if (k == 2) {
-            String[] arrayOfSentences = arrayOfSentences(line);
-            task2(arrayOfSentences);
-        }
-        if (k == 3) {
-            String[] arrayOfSentences3 = arrayOfSentences(line);
-            task3(arrayOfSentences3);
-        }
     }
 }

@@ -1,4 +1,4 @@
-package com.company;
+package com.epam.training.zaryna;
 
 import java.util.regex.*;
 import java.util.Scanner;
@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Main {
 
     //Получить закрывающий тег по "названию" тега
-    private static String getClosingTag(String tag) {
+    public static String getClosingTag(String tag) {
         if (tag == null || tag.isEmpty()) {
             return "";
         }
@@ -51,7 +51,7 @@ public class Main {
     public static boolean isRightNumberOfTags(String document) {
         return numOfOpeningTags(document) == numOfCloseTags(document);
     }
-    
+
     public static void analyzer(String document) {
         int countOpening;
         int countClosing;

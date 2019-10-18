@@ -1,4 +1,4 @@
-package com.company;
+package com.epam.training.zaryna;
 // В строке найти количество чисел.
 public class Main {
     public static boolean isDigit(char ch){
