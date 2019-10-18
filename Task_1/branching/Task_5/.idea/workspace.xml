@@ -45,8 +45,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="180" />
-    <option name="y" value="25" />
+    <option name="x" value="-500" />
+    <option name="y" value="50" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -79,7 +79,7 @@
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.company.zaryna.epam.Main" />
       <module name="Task_1_11" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
