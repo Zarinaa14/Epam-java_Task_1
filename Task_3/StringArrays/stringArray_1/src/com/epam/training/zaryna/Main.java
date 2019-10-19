@@ -1,6 +1,7 @@
 package com.epam.training.zaryna;
+
 /**
- *  Дан массив названий переменных в camelCase. Преобразовать названия в snake_case.
+ * Дан массив названий переменных в camelCase. Преобразовать названия в snake_case.
  */
 public class Main {
     private static String addUnderscores(String name) {

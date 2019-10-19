@@ -1,7 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b2d352bc-44a4-4b8c-90f0-18c9f37fe0ec" name="Default Changelist" comment="" />
+    <list default="true" id="b2d352bc-44a4-4b8c-90f0-18c9f37fe0ec" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Decomposition/Program_11/src/com/epam/training/zaryna/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Decomposition/Program_12/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Decomposition/Program_12/src/com/epam/training/zaryna/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Decomposition/Program_13/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Decomposition/Program_15/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sort_2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sort_2/src/com/epam/training/zaryna/Sort_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sort_3/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sort_3/src/com/epam/training/zaryna/Sort_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sort_4/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sort_6/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sort_7/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sort_7/src/com/epam/training/zaryna/Sort_7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Task_3/StringAsObject/StringObject_1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Task_3/StringAsObject/StringObject_1/src/com/epam/training/zaryna/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Task_3/StringAsObject/StringObject_10/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Task_3/StringAsObject/StringObject_2/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Arrays/Task2_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arrays/Task2_1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Arrays/Task2_1/src/com/epam/training/zaryna/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arrays/Task2_1/src/com/epam/training/zaryna/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Decomposition/Program_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Decomposition/Program_1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Decomposition/Program_11/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Decomposition/Program_11/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Decomposition/Program_11/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Decomposition/Program_12/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Decomposition/Program_12/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Decomposition/Program_12/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Decomposition/Program_13/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Decomposition/Program_13/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Decomposition/Program_13/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Decomposition/Program_13/src/com/epam/training/zaryna/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Decomposition/Program_14/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Decomposition/Program_14/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Decomposition/Program_15/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Decomposition/Program_15/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Decomposition/Program_15/out/production/Program_15/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Decomposition/Program_15/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Decomposition/Program_15/src/com/epam/training/zaryna/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Decomposition/Program_16/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Decomposition/Program_16/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Decomposition/Program_16/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Decomposition/Program_16/src/com/epam/training/zaryna/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Decomposition/Program_17/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Decomposition/Program_17/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Decomposition/Program_17/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Decomposition/Program_17/src/com/epam/training/zaryna/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Decomposition/Program_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Decomposition/Program_2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Decomposition/Program_3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Decomposition/Program_3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Decomposition/Program_6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Decomposition/Program_6/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Matrix/Matrix_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Matrix/Matrix_1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sort_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Sort_1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sort_1/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Sort_1/src/com/epam/training/zaryna/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sort_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Sort_2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sort_2/src/com/company/Sort_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sort_3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Sort_3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sort_3/src/com/company/Sort_3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sort_4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Sort_4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sort_4/src/com/company/Sort_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Sort_4/src/com/epam/training/zaryna/Sort_4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Sort_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/epam/training/zaryna/Sort_5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sort_6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Sort_6/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sort_6/src/com/company/Sort_6.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Sort_6/src/com/epam/training/zaryna/Sort_6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sort_7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Sort_7/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sort_7/src/com/company/Sort_7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sort_8/src/com/company/Sort_8.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Sort_8/src/com/epam/training/zaryna/Sort_8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Task_3/RegularExpression/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task_3/RegularExpression/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Task_3/RegularExpression/Regex_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task_3/RegularExpression/Regex_1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Task_3/RegularExpression/Regex_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task_3/RegularExpression/Regex_2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Task_3/StringArrays/StringArray_3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task_3/StringArrays/StringArray_3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Task_3/StringArrays/StringArray_3/src/com/epam/training/zaryna/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task_3/StringArrays/StringArray_3/src/com/epam/training/zaryna/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Task_3/StringArrays/StringArray_4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task_3/StringArrays/StringArray_4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Task_3/StringArrays/StringArray_4/src/com/epam/training/zaryna/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task_3/StringArrays/StringArray_4/src/com/epam/training/zaryna/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Task_3/StringArrays/StringArray_5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task_3/StringArrays/StringArray_5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Task_3/StringArrays/StringArray_5/src/com/epam/training/zaryna/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task_3/StringArrays/StringArray_5/src/com/epam/training/zaryna/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Task_3/StringArrays/stringArray_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task_3/StringArrays/stringArray_1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Task_3/StringArrays/stringArray_1/src/com/epam/training/zaryna/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task_3/StringArrays/stringArray_1/src/com/epam/training/zaryna/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Task_3/StringArrays/stringArray_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task_3/StringArrays/stringArray_2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Task_3/StringArrays/stringArray_2/src/com/epam/training/zaryna/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task_3/StringArrays/stringArray_2/src/com/epam/training/zaryna/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Task_3/StringAsObject/StringObject_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task_3/StringAsObject/StringObject_1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Task_3/StringAsObject/StringObject_1/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Task_3/StringAsObject/StringObject_10/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task_3/StringAsObject/StringObject_10/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Task_3/StringAsObject/StringObject_10/out/production/StringObject_10/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task_3/StringAsObject/StringObject_10/out/production/StringObject_10/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Task_3/StringAsObject/StringObject_10/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task_3/StringAsObject/StringObject_10/src/com/epam/training/zaryna/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Task_3/StringAsObject/StringObject_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task_3/StringAsObject/StringObject_2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Task_3/StringAsObject/StringObject_2/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task_3/StringAsObject/StringObject_2/src/com/epam/training/zaryna/Main.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,8 +85,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="ElmWorkspace">
     <elmProjects />
@@ -20,9 +94,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Sort_5.java">
+        <entry file="file://$PROJECT_DIR$/src/com/epam/training/zaryna/Sort_5.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-739">
+            <state relative-caret-position="110">
               <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
             </state>
           </provider>
@@ -30,11 +104,15 @@
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
         <option value="$PROJECT_DIR$/src/com/company/Sort_5.java" />
+        <option value="$PROJECT_DIR$/src/com/epam/training/zaryna/Sort_5.java" />
       </list>
     </option>
   </component>
@@ -44,18 +122,35 @@
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Sort_5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sort_5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sort_5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sort_5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Sort_6" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -118,9 +213,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25302014" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25637585" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -154,43 +248,43 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/company/Sort_5.java</url>
+          <url>file://$PROJECT_DIR$/src/com/epam/training/zaryna/Sort_5.java</url>
           <line>41</line>
           <properties />
           <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/company/Sort_5.java</url>
+          <url>file://$PROJECT_DIR$/src/com/epam/training/zaryna/Sort_5.java</url>
           <line>37</line>
           <properties />
           <option name="timeStamp" value="37" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/company/Sort_5.java</url>
+          <url>file://$PROJECT_DIR$/src/com/epam/training/zaryna/Sort_5.java</url>
           <line>42</line>
           <properties />
           <option name="timeStamp" value="38" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/company/Sort_5.java</url>
+          <url>file://$PROJECT_DIR$/src/com/epam/training/zaryna/Sort_5.java</url>
           <line>43</line>
           <properties />
           <option name="timeStamp" value="40" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/company/Sort_5.java</url>
+          <url>file://$PROJECT_DIR$/src/com/epam/training/zaryna/Sort_5.java</url>
           <line>44</line>
           <properties />
           <option name="timeStamp" value="41" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/company/Sort_5.java</url>
+          <url>file://$PROJECT_DIR$/src/com/epam/training/zaryna/Sort_5.java</url>
           <line>45</line>
           <properties />
           <option name="timeStamp" value="42" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/com/company/Sort_5.java</url>
+          <url>file://$PROJECT_DIR$/src/com/epam/training/zaryna/Sort_5.java</url>
           <line>34</line>
           <properties class="com.company.Sort_5" method="insertSort">
             <option name="EMULATED" value="true" />
@@ -201,9 +295,9 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/company/Sort_5.java">
+    <entry file="file://$PROJECT_DIR$/src/com/epam/training/zaryna/Sort_5.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-739">
+        <state relative-caret-position="110">
           <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
         </state>
       </provider>
