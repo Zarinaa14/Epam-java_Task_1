@@ -1,4 +1,4 @@
-package com.company.com.epam.bsu;
+package com.epam.training.zaryna;
 
 /**
  * Класс для представления банковского счета.
@@ -92,8 +92,8 @@ public class BankAccount {
 
     @Override
     public String toString() {
-        return "Name of customer: " + nameOfCustomer
-                + ", balance " + balance;
+        return "Имя клиента : " + nameOfCustomer
+                + ", его баланс " + balance;
     }
 
     @Override

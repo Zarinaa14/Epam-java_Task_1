@@ -1,4 +1,4 @@
-package com.company.com.epam.bsu;
+package com.epam.training.zaryna;
 
  /*
     Коллекция(массив) счетов.

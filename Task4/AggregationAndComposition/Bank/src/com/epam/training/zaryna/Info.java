@@ -1,4 +1,4 @@
-package com.company.com.epam.bsu;
+package com.epam.training.zaryna;
 
 public class Info {
     public void printInfo() {
