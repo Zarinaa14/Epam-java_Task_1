@@ -53,7 +53,6 @@ public class ArrayOfCustomers {
     }
 
 
-
     public Customer getCustomer(int index) {
         if (index >= 0 && index < getSize()) {
             return arrayOfCustomer[index];

@@ -27,9 +27,16 @@ public class Main {
         Pattern openingTagPat = Pattern.compile("<[^/!].+?>");
         Matcher openingTagMathcer = openingTagPat.matcher(string);
 
+        Pattern closing = Pattern.compile("<[A-Za-z]*[/]>");
+        Matcher closingTag = closing.matcher(string);
+
         while (openingTagMathcer.find()) {
             num++;
+
         }
+      //  while(closingTag.find()){
+      //      num--;
+      //  }
 
         return num;
     }
@@ -47,6 +54,7 @@ public class Main {
         return num;
     }
 
+
     //Проверяет равно ли число откр тегов числу закр тегов
     public static boolean isRightNumberOfTags(String document) {
         return numOfOpeningTags(document) == numOfCloseTags(document);
@@ -55,7 +63,7 @@ public class Main {
     public static void analyzer(String document) {
         int countOpening;
         int countClosing;
-        Pattern openingTagPat = Pattern.compile("<[^/!].+?>");
+        Pattern openingTagPat = Pattern.compile("<[^/!].+?[/]?>");
         Matcher openingTagMatсher = openingTagPat.matcher(document);
         String bodyTag;
         String openTag;
@@ -71,7 +79,7 @@ public class Main {
                 countClosing = document.indexOf(closeTag);
                 //если закрывающий тег не найден в строке
                 if (countClosing != -1) {
-                    countClosing += closeTag.length();
+                   countClosing += closeTag.length();
 
                     //Получение индекса первого элмента содержимого тега
                     countOpening += openTag.length();
@@ -125,7 +133,7 @@ public class Main {
 
         count = scanner.nextInt();
         if (count == 1) {
-            analyzer(line);
+            analyzer(line2);
 
         }
     }

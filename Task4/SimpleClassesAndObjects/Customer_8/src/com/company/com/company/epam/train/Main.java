@@ -13,10 +13,7 @@ public class Main {
         int[] numCreditCard =new int[]{10,20,30,40,50,60,70,80,90,100};
         int[] numberBankAccount=new int[]{24,45,53,65,78,81,53,44,55,92};
         arrayOfCustomers.randomCustomer(5,surname,name,patronymic,address,numCreditCard,numberBankAccount);
-        Customer[] cas =new Customer[6];
-        arrayOfCustomers.addCustomer("Ламаносова","Зарина","Михайловна","Солнечная",23,45);
         arrayOfCustomers.print();
-
         System.out.println("Сортировка по алфавиту: ");
         arrayOfCustomers.arraySortAlphabet();
         arrayOfCustomers.print();

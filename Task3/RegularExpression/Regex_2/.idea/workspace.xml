@@ -2,29 +2,70 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f90860d-ad07-4876-8cf1-8225f24de913" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../StringAsObject/StringObject_1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../StringAsObject/StringObject_2/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Task_2/Arrays/Task2_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task_2/Arrays/Task2_1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Task_2/Arrays/Task2_1/src/com/epam/training/zaryna/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task_2/Arrays/Task2_1/src/com/epam/training/zaryna/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Task_2/Decomposition/Program_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task_2/Decomposition/Program_1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Task_2/Decomposition/Program_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task_2/Decomposition/Program_2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Regex_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Regex_1/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Airplane_10/out/production/Airplane_10/com/epam/training/zaryna/Airplane.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Airplane_10/out/production/Airplane_10/com/epam/training/zaryna/ArrayAirplanes.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Airplane_10/out/production/Airplane_10/com/epam/training/zaryna/Info.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Airplane_10/out/production/Airplane_10/com/epam/training/zaryna/RunAirplane.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Airplane_10/out/production/Airplane_10/com/epam/training/zaryna/Time.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Customer_8/out/production/CustomerClass/META-INF/CustomerClass.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Customer_8/out/production/CustomerClass/com/company/com/company/epam/train/ArrayOfCustomers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Customer_8/out/production/CustomerClass/com/company/com/company/epam/train/Customer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Customer_8/out/production/CustomerClass/com/company/com/company/epam/train/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Train_4/out/production/Train/com/epam/training/zaryna/ArrayOfTrains.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Train_4/out/production/Train/com/epam/training/zaryna/Info.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Train_4/out/production/Train/com/epam/training/zaryna/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Train_4/out/production/Train/com/epam/training/zaryna/Train.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Train_4/src/com/epam/training/zaryna/ArrayOfTrains.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../StringArrays/StringArray_3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../StringArrays/StringArray_3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../StringArrays/StringArray_3/src/com/epam/training/zaryna/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../StringArrays/StringArray_3/src/com/epam/training/zaryna/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../StringArrays/StringArray_4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../StringArrays/StringArray_4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../StringArrays/StringArray_4/src/com/epam/training/zaryna/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../StringArrays/StringArray_4/src/com/epam/training/zaryna/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../StringArrays/StringArray_5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../StringArrays/StringArray_5/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../StringArrays/StringArray_5/src/com/epam/training/zaryna/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../StringArrays/StringArray_5/src/com/epam/training/zaryna/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../StringArrays/stringArray_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../StringArrays/stringArray_1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../StringArrays/stringArray_1/src/com/epam/training/zaryna/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../StringArrays/stringArray_1/src/com/epam/training/zaryna/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../StringArrays/stringArray_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../StringArrays/stringArray_2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../StringArrays/stringArray_2/src/com/epam/training/zaryna/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../StringArrays/stringArray_2/src/com/epam/training/zaryna/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../StringAsObject/StringObject_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../StringAsObject/StringObject_1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../StringAsObject/StringObject_1/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../StringAsObject/StringObject_1/src/com/epam/training/zaryna/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../StringAsObject/StringObject_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../StringAsObject/StringObject_2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../StringAsObject/StringObject_2/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../StringAsObject/StringObject_2/src/com/epam/training/zaryna/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Regex_2/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/epam/training/zaryna/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/epam/training/zaryna/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Task4/AggregationAndComposition/Bank/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task4/AggregationAndComposition/Bank/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Task4/AggregationAndComposition/Bank/src/com/epam/training/zaryna/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task4/AggregationAndComposition/Bank/src/com/epam/training/zaryna/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Task4/AggregationAndComposition/Car/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task4/AggregationAndComposition/Car/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Task4/AggregationAndComposition/Country/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task4/AggregationAndComposition/Country/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Task4/AggregationAndComposition/Country/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task4/AggregationAndComposition/Country/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Task4/AggregationAndComposition/Tourism/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task4/AggregationAndComposition/Tourism/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Task4/AggregationAndComposition/Tourism/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task4/AggregationAndComposition/Tourism/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Task4/AggregationAndComposition/Tourism/src/com/epam/training/zaryna/ArrayAndProcessInTravel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task4/AggregationAndComposition/Tourism/src/com/epam/training/zaryna/ArrayAndProcessInTravel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Task4/AggregationAndComposition/Tourism/src/com/epam/training/zaryna/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task4/AggregationAndComposition/Tourism/src/com/epam/training/zaryna/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Airplane_10/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Airplane_10/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Airplane_10/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Airplane_10/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Airplane_10/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Airplane_10/AirlineClass.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Airplane_10/Airplane_10.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Airplane_10/out/production/AirlineClass/com/company/Airline.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Airplane_10/out/production/AirlineClass/com/company/AirplaneLogic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Airplane_10/out/production/AirlineClass/com/company/Log.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Airplane_10/out/production/AirlineClass/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Airplane_10/out/production/AirlineClass/com/company/Time.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Airplane_10/src/com/epam/training/zaryna/Airline.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Airplane_10/src/com/epam/training/zaryna/Airplane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Airplane_10/src/com/epam/training/zaryna/AirplaneLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Airplane_10/src/com/epam/training/zaryna/ArrayAirplanes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Airplane_10/src/com/epam/training/zaryna/Info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Airplane_10/src/com/epam/training/zaryna/Info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Airplane_10/src/com/epam/training/zaryna/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Airplane_10/src/com/epam/training/zaryna/RunAirplane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Airplane_10/src/com/epam/training/zaryna/Time.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Airplane_10/src/com/epam/training/zaryna/Time.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Book_9/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Book_9/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Book_9/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Book_9/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Customer_8/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Customer_8/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Customer_8/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Customer_8/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Customer_8/out/production/CustomerClass/com/company/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Customer_8/out/production/CustomerClass/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Customer_8/out/production/CustomerClass/com/company/TaskCustomer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Customer_8/src/com/company/com/company/epam/train/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Customer_8/src/com/company/com/company/epam/train/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Customer_8/src/com/company/com/company/epam/train/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Customer_8/src/com/company/com/company/epam/train/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Customer_8/src/com/company/com/company/epam/train/TaskCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Customer_8/src/com/company/com/company/epam/train/ArrayOfCustomers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Student_3/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Student_3/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Student_3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Student_3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Student_3/src/com/epam/training/zaryna/ArrayOfStudents.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Student_3/src/com/epam/training/zaryna/ArrayOfStudents.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Student_3/src/com/epam/training/zaryna/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Student_3/src/com/epam/training/zaryna/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Train_4/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Train_4/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Train_4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Train_4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Train_4/out/production/Train/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Train_4/out/production/Train/com/company/Train.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Train_4/src/com/epam/training/zaryna/Info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Train_4/src/com/epam/training/zaryna/Info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Train_4/src/com/epam/training/zaryna/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Train_4/src/com/epam/training/zaryna/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Train_4/src/com/epam/training/zaryna/Train.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Train_4/src/com/epam/training/zaryna/Train.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Triangle_7/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Triangle_7/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Triangle_7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Triangle_7/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Task5/Payment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task5/Payment/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,8 +86,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/epam/training/zaryna/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+            <state relative-caret-position="196">
+              <caret line="40" column="15" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,6 +127,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -108,13 +151,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../StringArrays/stringArray_2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -128,7 +169,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.epam.training.zaryna.Main" />
+      <module name="Regex_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.epam.training.zaryna.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="Regex_2" />
@@ -141,6 +195,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -162,7 +217,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25302014" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25637585" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -171,8 +226,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2737921" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34114203" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39970717" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -222,22 +277,191 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout-to-restore>
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/epam/training/zaryna/Main.java</url>
+          <line>63</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/epam/training/zaryna/Main.java</url>
+          <line>64</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/epam/training/zaryna/Main.java</url>
+          <line>81</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/epam/training/zaryna/Main.java</url>
+          <line>86</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/epam/training/zaryna/Main.java</url>
+          <line>80</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/epam/training/zaryna/Main.java</url>
+          <line>77</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/epam/training/zaryna/Main.java</url>
+          <line>78</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/epam/training/zaryna/Main.java</url>
+          <line>92</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/epam/training/zaryna/Main.java</url>
+          <line>91</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/epam/training/zaryna/Main.java</url>
+          <line>98</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/epam/training/zaryna/Main.java</url>
+          <line>59</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/epam/training/zaryna/Main.java</url>
+          <line>65</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/epam/training/zaryna/Main.java</url>
+          <line>66</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/epam/training/zaryna/Main.java</url>
+          <line>72</line>
+          <properties />
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/epam/training/zaryna/Main.java</url>
+          <line>73</line>
+          <properties />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/epam/training/zaryna/Main.java</url>
+          <line>75</line>
+          <properties />
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/epam/training/zaryna/Main.java</url>
+          <line>76</line>
+          <properties />
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/epam/training/zaryna/Main.java</url>
+          <line>9</line>
+          <properties />
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/epam/training/zaryna/Main.java</url>
+          <line>10</line>
+          <properties />
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/epam/training/zaryna/Main.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/epam/training/zaryna/Main.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/epam/training/zaryna/Main.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/epam/training/zaryna/Main.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/epam/training/zaryna/Main.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/epam/training/zaryna/Main.java</url>
+          <line>58</line>
+          <properties class="com.epam.training.zaryna.Main" method="isRightNumberOfTags">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/epam/training/zaryna/Main.java</url>
+          <line>8</line>
+          <properties class="com.epam.training.zaryna.Main" method="getClosingTag">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Regex_2$Main__1_.ic" NAME="Main (1) Coverage Results" MODIFIED="1571495273914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.epam.training.zaryna.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/Regex_2$Main.ic" NAME="Main Coverage Results" MODIFIED="1569952096254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Regex_2.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/epam/training/zaryna/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+        <state relative-caret-position="196">
+          <caret line="40" column="15" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Regex_2.iml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

@@ -83,43 +83,51 @@ public class Main {
                 double money = scanner.nextDouble();
                 arrayOfBankAccount.addBankAccount(name, money);
                 System.out.println("--------------------------------------\n");
+                continue;
             }
             if (choice == 9) {
                 System.out.println("Задайте имя: \n");
                 String name = scanner.next();
                 arrayOfBankAccount.deleteBankAccountByName(name);
                 System.out.println("--------------------------------------\n");
+                continue;
             }
             if (choice == 10) {
                 System.out.println("Задайте депозит: \n");
                 double balance = scanner.nextDouble();
                 arrayOfBankAccount.findCustomerBalance(balance);
                 System.out.println("--------------------------------------\n");
+                continue;
             }
             if (choice == 11) {
                 double result = arrayOfBankAccount.getTotalPositiveBalance();
                 System.out.println("Положительный баланс, дебет: \n" + result);
                 System.out.println("--------------------------------------\n");
+                continue;
             }
             if (choice == 12) {
                 double result = arrayOfBankAccount.getTotalNegativeBalance();
                 System.out.println("Отрицательный баланс, кредит: \n" + result);
                 System.out.println("--------------------------------------\n");
+                 continue;
             }
             if (choice == 13) {
                 double result = arrayOfBankAccount.getTotalBalance();
                 System.out.println("Общий баланс:" + result);
                 System.out.println("--------------------------------------\n");
+                continue;
             }
             if (choice == 14) {
                 System.out.println("Заблокировать все счета: \n");
                 arrayOfBankAccount.blockAllBankAccounts();
                 System.out.println("Счета заблокированы!\n");
+                continue;
             }
             if (choice == 15) {
                 System.out.println("Разблокировать все счета: \n");
                 arrayOfBankAccount.unlockAll();
                 System.out.println("Счета разблокированы!\n");
+                continue;
             }
             if (choice == 16) {
                 System.out.println("Задайте имя клиента: \n");
@@ -134,6 +142,7 @@ public class Main {
                 System.out.println("--------------------------------------\n");
                 arrayOfBankAccount.print();
                 System.out.println("--------------------------------------\n");
+                continue;
             }
         }
 
