@@ -23,7 +23,7 @@ public class Time {
 
 
     //Время установится, если формат и значения времени верны
-    public boolean isRightTime(int hour, int minute, int second){
+    protected boolean isRightTime(int hour, int minute, int second){
         if ((hour > 0 && hour < 25) || (minute > 0 && minute < 61) || (second > 0 && second < 61))
         {
             return true;
@@ -34,7 +34,7 @@ public class Time {
         }
     }
     //Время установится, если верны переданные значения часов, минут, секунд
-    public void setTime(int hours, int minutes, int seconds){
+    protected void setTime(int hours, int minutes, int seconds){
         if(isRightTime(hours, minutes, seconds)) {
             this.hours = hours;
             this.minutes = minutes;
@@ -45,12 +45,12 @@ public class Time {
         }
 
     }
-    public String getTimeObject(Time ob){
-       return ob.toString();
+    protected String getTimeObject(Time ob){
+        return ob.toString();
 
     }
 
-    public void setHours(int hours){
+    protected void setHours(int hours){
         if(hours>=0 && hours <24){
             this.hours=hours;
         }else{
@@ -58,7 +58,7 @@ public class Time {
         }
     }
 
-    public void setMinutes(int minutes){
+    protected void setMinutes(int minutes){
         if(minutes>=0 && minutes<60){
             this.minutes=minutes;
         }else{
@@ -66,7 +66,7 @@ public class Time {
         }
     }
 
-    public void setSeconds(int seconds){
+    protected void setSeconds(int seconds){
         if(seconds>=0 && seconds<60){
             this.seconds=seconds;
         }else{
@@ -74,14 +74,28 @@ public class Time {
         }
     }
 
+    protected int getHours() {
+        return hours;
 
-    public void addHours(int hours){
+    }
+
+    protected int getMinutes() {
+        return minutes;
+
+    }
+
+    protected int getSeconds() {
+        return seconds;
+
+    }
+
+    protected void addHours(int hours){
         if(hours>0) {
             this.hours = (this.hours + hours) % 24;
         }
     }
 
-    public void addMinutes(int minutes){
+    protected void addMinutes(int minutes){
         if(minutes>0) {
             this.minutes += minutes;
             this.hours = (this.hours + this.minutes / 60) % 24;
@@ -89,7 +103,7 @@ public class Time {
         }
     }
 
-    public void addSeconds(int seconds){
+    protected void addSeconds(int seconds){
         if(seconds>0) {
             this.seconds += seconds;
             this.minutes = (this.minutes + this.seconds / 60);
@@ -105,6 +119,35 @@ public class Time {
     }
 
     private int setZero(){
+        return 0;
+    }
+
+    public int compareTo(Time ob) {
+        if(ob.getHours()>this.getHours()){
+            return 1;
+        };
+        if(ob.getHours()<this.getHours()){
+            return -1;
+        };
+        if((ob.getHours()==this.getHours())){
+            if(ob.getMinutes()>this.getMinutes()){
+                return 1;
+            };
+            if(ob.getMinutes()<this.getMinutes()){
+                return -1;
+            };
+
+            if((ob.getMinutes()==this.getMinutes())){
+                if(ob.getSeconds()>this.getSeconds()){
+                    return 1;
+                };
+                if(ob.getSeconds()<this.getSeconds()){
+                    return -1;
+                };
+            }
+        }
+
+
         return 0;
     }
 }

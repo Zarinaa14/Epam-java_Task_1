@@ -18,8 +18,8 @@ public class Main {
         array.getRandomStudent(surname, initials, marks, groupNumber);
         array.print();
         System.out.println("Лучшие студенты: ");
-        ArrayOfStudents newMark = array.getArraysExcellentStudents();
-        newMark.print();
+        ArrayOfStudents newArraysExcellentStudents = array.getArraysExcellentStudents();
+        newArraysExcellentStudents.print();
 
     }
 }

@@ -1,27 +1,31 @@
 package com.epam.training.zaryna;
 
-/**  Создать класс Airline, спецификация которого приведена ниже.
+
+/**  Создать класс Airplane, спецификация которого приведена ниже.
  Определить конструкторы, set- и get- методы и метод  toString().
- Создать второй класс, агрегирующий массив типа Airline, с подходящими конструкторами и методами.
+ Создать второй класс, агрегирующий массив типа Airplane, с подходящими конструкторами и методами.
  Задать критерии выбора данных и вывести эти данные на консоль.
 
- Airline: пункт назначения, номер рейса, тип самолета, время вылета, дни недели.
+ Airplane: пункт назначения, номер рейса, тип самолета, время вылета, дни недели.
  Найти и вывести:
  a) список рейсов для заданного пункта назначения;
  b) список рейсов для заданного дня недели;
  c) список рейсов для заданного дня недели, время вылета для которых больше заданного. **/
-public class Airline {
+public class Airplane {
 
     private String destination;
     private int flightNumber;
     private String planeType;
-    private String timeOfAppointment;
-    private String days;
-    public Airline(){
+    private Time timeOfAppointment;
+    private String day;
+    public Airplane(){
         destination="";
         planeType="";
+        flightNumber=1;
+        timeOfAppointment=new Time(12,12,12);
+        day="Monday";
     }
-    public Airline(String destination,int flightNumber,String planeType,String timeOfAppointment,String days){
+    public Airplane(String destination, int flightNumber, String planeType, Time timeOfAppointment, String days){
         setDestination(destination);
         setFlightNumber(flightNumber);
         setPlaneType(planeType);
@@ -44,13 +48,13 @@ public class Airline {
             this.planeType = planeType;
         }
     }
-    public void setTimeOfAppointment(String timeOfAppointment){
+    public void setTimeOfAppointment(Time timeOfAppointment){
         this.timeOfAppointment=timeOfAppointment;
     }
 
     public void setDays(String day){
-        this.days = day;
-        }
+        this.day = day;
+    }
 
     public int getFlightNumber(){
         return flightNumber;
@@ -60,12 +64,12 @@ public class Airline {
         return destination;
     }
 
-    public String getTimeOfAppointment(){
+    public Time getTimeOfAppointment(){
         return timeOfAppointment;
     }
 
     public String getDays(){
-        return days;
+        return day;
     }
 
     public String getPlaneType(){
@@ -81,7 +85,7 @@ public class Airline {
         return "Destination: " + destination
                 + ", flight number " + flightNumber
                 + ", type of plane" + planeType
-                + ", time: " + timeOfAppointment + ", day of the week " + days;
+                + ", time: " + timeOfAppointment + ", day of the week " + day;
     }
 
     @Override
@@ -94,14 +98,14 @@ public class Airline {
             return false;
         }
 
-        Airline other=(Airline) obj;
-        return destination.equals(other.destination) && getDays().equals(other.days) &&
+        Airplane other=(Airplane) obj;
+        return destination.equals(other.destination) && getDays().equals(other.day) &&
                 timeOfAppointment.toString().equals(other.timeOfAppointment.toString()) && getPlaneType().equals(other.planeType);
     }
 
     @Override
     public int hashCode(){
-        int number=31;
+        int number=10;
         int result=1;
 
         result=number+((destination==null)?0:destination.hashCode());
@@ -113,3 +117,4 @@ public class Airline {
         return result;
     }
 }
+

@@ -12,37 +12,47 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        Train[] arrayOfTrain = new Train[5];
-        arrayOfTrain[0] = new Train("Minsk", 34, 12);
-        arrayOfTrain[1] = new Train("Mockow", 55, 10);
-        arrayOfTrain[2] = new Train("Poland", 12, 7);
-        arrayOfTrain[3] = new Train("Mockow", 4, 5);
-        arrayOfTrain[4] = new Train("Vienna", 56, 4);
+        ArrayOfTrains arrayOfTrain = new ArrayOfTrains(5);
+        String[] arrayNameOfDestination = new String[]{"Minsk", "Gdansk", "Belarus", "Vilnius", "Pinsk", "Vienna", "Bransk", "Montenegro", "Astana"};
+        int[] arrayDepartureTime = new int[]{23, 11, 24, 14, 12, 5, 8, 6, 2, 3};
+        int[] arrayNumberOfTrain = new int[]{88, 10, 99, 98, 10, 77, 12, 56, 12, 45};
+        arrayOfTrain.getRandomTrains(arrayNameOfDestination, arrayNumberOfTrain, arrayDepartureTime);
+        arrayOfTrain.print();
         Info info = new Info();
-        System.out.println("Сортировка элементов массива по номерам поездов: ");
-        info.printLine();
-        Train.sortByNumberOfTrain(arrayOfTrain);
-        //Train.print();
-        for (int i = 0; i < arrayOfTrain.length; i++) {
-            System.out.println(arrayOfTrain[i].toString());
-        }
+        info.printStartInfo();
         Scanner in = new Scanner(System.in);
-        info.printLine();
-        System.out.println("ВВедите номер поезда: ");
-        int number = in.nextInt();
-        if (number == 34 || number == 55 || number == 12 || number == 4 || number == 56) {
-            System.out.println("Информация элемента массива по номеру поездов: ");
-            info.printLine();
-            Train.printInfoByNumber(number, arrayOfTrain);
-        } else {
-            System.out.println("Введите правильный номер поезда: ");
+        int choice;
+        choice = in.nextInt();
+        switch (choice) {
+            case 1: {
+                System.out.println("Сортировка элементов массива по номерам поездов: ");
+                arrayOfTrain.sortByNumberOfTrain();
+                arrayOfTrain.print();
+                info.printLine();
+                break;
+            }
+            case 2: {
+                System.out.println("ВВедите номер поезда: ");
+                int number = in.nextInt();
+                System.out.println("Информация по номеру поездов: ");
+                info.printLine();
+                arrayOfTrain.printInfoByNumber(number);
+                break;
+            }
+            case 3: {
+                System.out.println("Сортировка по пунктам назначения(по алфавиту), если пункты равны, по времени отправления: ");
+                arrayOfTrain.sortByDestination();
+                arrayOfTrain.print();
+                break;
+            }
+            case 4: {
+                System.out.println("Сортировка массива по номерам поезда");
+                arrayOfTrain.sortByNumberOfTrain();
+                arrayOfTrain.print();
+                break;
+            }
         }
-        info.printLine();
-        System.out.println("Сортировка массива по пункту назначения(по алфавиту), если пункты равны, по времени отправления: ");
-        info.printLine();
-        Train.sortByDestination(arrayOfTrain);
-        for (int i = 0; i < arrayOfTrain.length; i++) {
-            System.out.println(arrayOfTrain[i].toString());
-        }
+
+
     }
 }

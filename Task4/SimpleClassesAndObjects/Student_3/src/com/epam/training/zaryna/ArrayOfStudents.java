@@ -17,7 +17,7 @@ public class ArrayOfStudents {
     }
 
     public ArrayOfStudents(Student[] array) {
-        setStudentLogic(array);
+        setArrayOfStudents(array);
     }
 
     public int getSize() {
@@ -28,7 +28,7 @@ public class ArrayOfStudents {
         }
     }
 
-    public void setStudentLogic(Student[] array) {
+    public void setArrayOfStudents(Student[] array) {
         if (array != null) {
             arrayStudent = new Student[array.length];
             for (int i = 0; i < getSize(); i++) {
@@ -37,9 +37,10 @@ public class ArrayOfStudents {
         }
     }
 
-    public Student[] getArrayOfAirlines() {
+    public Student[] getArrayOfStudents() {
         return arrayStudent;
     }
+
 
 
     public int getExcellentStudents() {
@@ -124,7 +125,7 @@ public class ArrayOfStudents {
         boolean isEqual = (other.getSize() == getSize());
 
         for (int i = 0; isEqual && i < getSize(); i++) {
-            if (!arrayStudent[i].equals(other.getArrayOfAirlines()[i])) {
+            if (!arrayStudent[i].equals(other.getArrayOfStudents()[i])) {
                 isEqual = false;
             }
         }
