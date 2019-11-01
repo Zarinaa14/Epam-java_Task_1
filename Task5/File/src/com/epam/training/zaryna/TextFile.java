@@ -12,7 +12,12 @@ public class TextFile extends File {
         this.content.append(content);
     }
 
-    public String getContent() {
-        return content.toString();
+    public void getContent() {
+        System.out.println(content);
+    }
+
+    @Override
+    public String toString(){
+        return "content" + content;
     }
 }

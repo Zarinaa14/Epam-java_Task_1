@@ -91,8 +91,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="951" />
-    <option name="width" value="598" />
+    <option name="x" value="950" />
+    <option name="width" value="599" />
     <option name="height" value="525" />
   </component>
   <component name="ProjectView">
@@ -127,6 +127,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Epam-java_Task_1/Task5/Payment" />
   </component>
   <component name="RunDashboard">

@@ -15,7 +15,7 @@ public class Main {
 
         file.addContent("This is test content.");
 
-        System.out.println("File content: " + file.getContent());
+        file.getContent();
         System.out.println("File name: " + file.getName());
         file.delete();
     }

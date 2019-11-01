@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d35e422b-c5af-4bf6-be49-db1ea07048cf" name="Default Changelist" comment="" />
+    <list default="true" id="d35e422b-c5af-4bf6-be49-db1ea07048cf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Task2/Decomposition/Program_15/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Task2/Decomposition/Program_15/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Task4/SimpleClassesAndObjects/Customer_8/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Task4/SimpleClassesAndObjects/Customer_8/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Task4/SimpleClassesAndObjects/Student_3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Task4/SimpleClassesAndObjects/Student_3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Calendar/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Calendar/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/file_f/com/company/Directory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/file_f/com/company/File.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/file_f/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/file_f/com/company/TextFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/epam/training/zaryna/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/epam/training/zaryna/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/epam/training/zaryna/TextFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/epam/training/zaryna/TextFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Payment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Payment/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,8 +24,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="ElmWorkspace">
     <elmProjects />
@@ -19,61 +32,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/epam/training/zaryna/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="176">
+              <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/File.java">
+        <entry file="file://$PROJECT_DIR$/src/com/epam/training/zaryna/File.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="638">
-              <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+            <state relative-caret-position="506">
+              <caret line="30" column="5" selection-start-line="26" selection-end-line="30" selection-end-column="5" />
               <folding>
-                <element signature="e#270#271#0" expanded="true" />
-                <element signature="e#302#303#0" expanded="true" />
-                <element signature="e#325#326#0" expanded="true" />
-                <element signature="e#356#357#0" expanded="true" />
-                <element signature="e#441#442#0" expanded="true" />
-                <element signature="e#473#474#0" expanded="true" />
-                <element signature="e#519#520#0" expanded="true" />
-                <element signature="e#573#574#0" expanded="true" />
+                <element signature="e#388#389#0" expanded="true" />
+                <element signature="e#415#416#0" expanded="true" />
+                <element signature="e#531#532#0" expanded="true" />
+                <element signature="e#577#578#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/TextFile.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/epam/training/zaryna/TextFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
+            <state relative-caret-position="220">
               <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
               <folding>
-                <element signature="e#115#116#0" expanded="true" />
-                <element signature="e#153#154#0" expanded="true" />
-                <element signature="e#239#240#0" expanded="true" />
-                <element signature="e#277#278#0" expanded="true" />
-                <element signature="e#350#351#0" expanded="true" />
-                <element signature="e#391#392#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Directory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-              <folding>
-                <element signature="e#112#113#0" expanded="true" />
-                <element signature="e#142#143#0" expanded="true" />
-                <element signature="e#297#298#0" expanded="true" />
-                <element signature="e#324#325#0" expanded="true" />
+                <element signature="e#185#186#0" expanded="true" />
+                <element signature="e#223#224#0" expanded="true" />
+                <element signature="e#269#270#0" expanded="true" />
+                <element signature="e#313#314#0" expanded="true" />
+                <element signature="e#347#348#0" expanded="true" />
+                <element signature="e#373#374#0" expanded="true" />
+                <element signature="e#433#434#0" expanded="true" />
+                <element signature="e#470#471#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -88,6 +84,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -96,44 +95,50 @@
         <option value="$PROJECT_DIR$/src/com/company/TextFile.java" />
         <option value="$PROJECT_DIR$/src/com/company/Directory.java" />
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/epam/training/zaryna/TextFile.java" />
+        <option value="$PROJECT_DIR$/src/com/epam/training/zaryna/Main.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="951" />
-    <option name="width" value="598" />
+    <option name="x" value="950" />
+    <option name="width" value="599" />
     <option name="height" value="525" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="file_f" type="b2602c69:ProjectViewProjectNode" />
-              <item name="file_f" type="462c0819:PsiDirectoryNode" />
+              <item name="File" type="b2602c69:ProjectViewProjectNode" />
+              <item name="File" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="file_f" type="b2602c69:ProjectViewProjectNode" />
-              <item name="file_f" type="462c0819:PsiDirectoryNode" />
+              <item name="File" type="b2602c69:ProjectViewProjectNode" />
+              <item name="File" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="file_f" type="b2602c69:ProjectViewProjectNode" />
-              <item name="file_f" type="462c0819:PsiDirectoryNode" />
+              <item name="File" type="b2602c69:ProjectViewProjectNode" />
+              <item name="File" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="zaryna" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -147,7 +152,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.epam.training.zaryna.Main" />
+      <module name="file_f" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.epam.training.zaryna.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="file_f" />
@@ -160,6 +178,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -186,9 +205,8 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.24966443" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.25302014" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Version Control" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
@@ -200,6 +218,7 @@
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Theme Preview" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Elm" order="2" />
@@ -212,62 +231,45 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/company/ActionFile.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/ActionFile.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/company/TextFile.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/company/File.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/company/Directory.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/epam/training/zaryna/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        <state relative-caret-position="176">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/TextFile.java">
+    <entry file="file://$PROJECT_DIR$/src/com/epam/training/zaryna/File.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
+        <state relative-caret-position="506">
+          <caret line="30" column="5" selection-start-line="26" selection-end-line="30" selection-end-column="5" />
+          <folding>
+            <element signature="e#388#389#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#531#532#0" expanded="true" />
+            <element signature="e#577#578#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epam/training/zaryna/TextFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
           <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           <folding>
-            <element signature="e#115#116#0" expanded="true" />
-            <element signature="e#153#154#0" expanded="true" />
-            <element signature="e#239#240#0" expanded="true" />
-            <element signature="e#277#278#0" expanded="true" />
-            <element signature="e#350#351#0" expanded="true" />
-            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#185#186#0" expanded="true" />
+            <element signature="e#223#224#0" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+            <element signature="e#433#434#0" expanded="true" />
+            <element signature="e#470#471#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/File.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
-          <folding>
-            <element signature="e#270#271#0" expanded="true" />
-            <element signature="e#302#303#0" expanded="true" />
-            <element signature="e#325#326#0" expanded="true" />
-            <element signature="e#356#357#0" expanded="true" />
-            <element signature="e#441#442#0" expanded="true" />
-            <element signature="e#473#474#0" expanded="true" />
-            <element signature="e#519#520#0" expanded="true" />
-            <element signature="e#573#574#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Directory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-          <folding>
-            <element signature="e#112#113#0" expanded="true" />
-            <element signature="e#142#143#0" expanded="true" />
-            <element signature="e#297#298#0" expanded="true" />
-            <element signature="e#324#325#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>

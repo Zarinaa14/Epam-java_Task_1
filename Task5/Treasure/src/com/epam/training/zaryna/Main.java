@@ -18,12 +18,7 @@ public class Main {
         Scanner scanner=new Scanner(System.in);
 
         int treasuresPrice=scanner.nextInt();
-       // if(treasuresPrice==treasures.getPrice()){
             equalsTreasures=treasures.getEqualsPriceTreasures(treasuresPrice);
             treasures.printArrayList(equalsTreasures);
-
-       // }
-
-
     }
 }
