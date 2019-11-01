@@ -33,13 +33,13 @@ public class Train {
 
     public void setDepartureTime(int departureTime) {
         if (departureTime > 0) {
-            departureTime = departureTime;
+            this.departureTime = departureTime;
         }
     }
 
     public void setNumberOfTrain(int numberOfTrain) {
         if (numberOfTrain > 0) {
-            numberOfTrain = numberOfTrain;
+            this.numberOfTrain = numberOfTrain;
         }
     }
 

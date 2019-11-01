@@ -13,103 +13,105 @@ import java.util.*;
 
 public class Payment {
 
-    private ArrayList<ClassProduct> products=new ArrayList<ClassProduct>();
+    private ArrayList<Product> products = new ArrayList<Product>();
 
-    public Payment(){
+    public Payment() {
 
     }
-    public Payment(int size){
-        for(int i=0;i<size;i++){
-            products.add(new ClassProduct());
+
+    public Payment(int size) {
+        for (int i = 0; i < size; i++) {
+            products.add(new Product());
         }
     }
 
-    public void addProduct(String name,double weight,double price){
-        products.add(new ClassProduct(name,weight,price));
+    public void addProduct(String name, double weight, double price) {
+        products.add(new Product(name, weight, price));
     }
 
-    public void setProduct(int index,String name,double weight,double price){
-        if(index>=0 && price <products.size()&& name!=null) {
-            products.set(index, new ClassProduct(name, weight, price));
+    public void setProduct(int index, String name, double weight, double price) {
+        if (index >= 0 && price < products.size() && name != null) {
+            products.set(index, new Product(name, weight, price));
         }
     }
 
-    public void deleteProduct(int index){
-        if(index>=0 && index<products.size()){
+    public void deleteProduct(int index) {
+        if (index >= 0 && index < products.size()) {
             products.remove(index);
         }
     }
 
-    public void deleteProduct(String name,double weight,double price){
-        products.remove(new ClassProduct(name,weight,price));
+    public void deleteProduct(String name, double weight, double price) {
+        products.remove(new Product(name, weight, price));
     }
 
-    public void sortByPrice(){
-        Collections.sort(products,new ProductPriceComparator());
+    public void sortByPrice() {
+        Collections.sort(products, new ProductPriceComparator());
     }
 
-    protected void sortByWeight(){
-       Collections.sort(products,new ProductWeightComparator());
+    protected void sortByWeight() {
+        Collections.sort(products, new ProductWeightComparator());
     }
 
-    public void sortByName(){
-      Collections.sort(products,new ProductNameComparator());
+    public void sortByName() {
+        Collections.sort(products, new ProductNameComparator());
     }
 
-    public double getTotalPrice(){
-        double price=0;
+    public double getTotalPrice() {
+        double price = 0;
 
-        for(ClassProduct product:products){
-            price+=product.getPrice();
+        for (Product product : products) {
+            price += product.getPrice();
         }
 
-        return (double)Math.round(price*100d)/100d;
+        return (double) Math.round(price * 100d) / 100d;
     }
 
-    public double getTotalWeight(){
-        double weight=0;
+    public double getTotalWeight() {
+        double weight = 0;
 
-        for(ClassProduct product:products){
-            weight+=product.getWeight();
+        for (Product product : products) {
+            weight += product.getWeight();
         }
 
-        return (double)Math.round(weight*100d)/100d;
+        return (double) Math.round(weight * 100d) / 100d;
     }
 
-    public void print(){
-        System.out.println("\n Общая сумма = "+getTotalPrice());
-        System.out.println(" Общий вес = "+getTotalWeight()+"\n");
-        System.out.println(toString());
+    public void printCashVoucher() {
+        System.out.println("Общая сумма = " + getTotalPrice());
+        System.out.println("Общий вес = " + getTotalWeight());
+        System.out.println(this);
     }
 
     @Override
-    public String toString(){
-        String string=new String();
+    public String toString() {
+        StringBuilder stringValue = new StringBuilder();
 
-        for(int i=0;i<products.size();i++){
-            string+=(i+1)+products.get(i).toString()+"\n";
+        for (int i = 0; i < products.size(); i++) {
+            stringValue.append(i + 1);
+            stringValue.append(products.get(i).toString());
         }
 
-        return string;
+        return stringValue.toString();
     }
 
     @Override
-    public boolean equals(Object obj){
-        if(obj == this){
+    public boolean equals(Object obj) {
+        if (obj == this) {
             return true;
         }
 
-        if(obj==null || obj.getClass() != this.getClass()){
+        if (obj == null || obj.getClass() != this.getClass()) {
             return false;
         }
 
-        Payment payment=(Payment) obj;
+        Payment payment = (Payment) obj;
 
-        boolean isEqual=true;
+        boolean isEqual = true;
 
-        for(int i=0;i<products.size();i++){
-            if(!products.get(i).equals(payment.products.get(i))){
-                isEqual=false;
+        for (int i = 0; i < products.size(); i++) {
+            if (!products.get(i).equals(payment.products.get(i))) {
+                isEqual = false;
                 break;
             }
         }
@@ -118,14 +120,13 @@ public class Payment {
     }
 
 
-
     @Override
-    public int hashCode(){
-        int num=31;
-        int result=1;
+    public int hashCode() {
+        int num = 31;
+        int result = 1;
 
-        for(ClassProduct product:products){
-            result=num*result+product.hashCode();
+        for (Product product : products) {
+            result = num * result + product.hashCode();
         }
 
         return result;

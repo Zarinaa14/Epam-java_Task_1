@@ -77,7 +77,7 @@ public class Main {
                     }
 
                     case 9: {
-                        payment.print();
+                        payment.printCashVoucher();
                         break;
                     }
                 }

@@ -5,20 +5,18 @@ package com.epam.training.zaryna;
 // Добавьте возможность вывода фамилий и номеров групп студентов, имеющих оценки, равные только 9 или 10
 
 
+import javax.swing.*;
+
 public class Main {
 
     public static void main(String[] args) {
-        ArrayOfStudents array = new ArrayOfStudents(3);
-        String[] surname = new String[]{"Грибенко", "Милон", "Косенко", "Мирошничюк", "Владовенко", "Слизько", "Гаврило", "Кахошко", "Ведмеденко", "Лонтовко"};
-        String[] initials = new String[]{"Валентин Евгенович", "Дима Петрович", "Женя Алексеевич", "Оля Михайловна", " Коля Едуардов", "Ваня Васильевич", "Оля Евгеньевна", "Максим Павлович", "Андрей Анатольевич", "Андрей Владиславович"};
-        int[] groupNumber = new int[]{23, 11, 24, 44, 12};
-        int[] marks = new int[]{8, 10, 9, 9, 10, 7};
-
+        ActionStudent action = new ActionStudent();
+        ArrayOfStudents arrayOfStudents = new ArrayOfStudents();
         System.out.println("Рандомные студенты: ");
-        array.getRandomStudent(surname, initials, marks, groupNumber);
-        array.print();
+        arrayOfStudents = action.getRandomStudent(7);
+        arrayOfStudents.print();
         System.out.println("Лучшие студенты: ");
-        ArrayOfStudents newArraysExcellentStudents = array.getArraysExcellentStudents();
+        ArrayOfStudents newArraysExcellentStudents = action.getArraysExcellentStudents(arrayOfStudents);
         newArraysExcellentStudents.print();
 
     }

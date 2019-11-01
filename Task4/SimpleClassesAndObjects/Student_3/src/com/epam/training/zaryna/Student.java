@@ -54,30 +54,30 @@ public class Student {
     public int getGroupNumber() {
         return groupNumber;
     }
-    public void setMarks(int mark, int subjectNumber){
-        if(subjectNumber>=0 && subjectNumber<marks.length && mark>0){
-            marks[subjectNumber]=mark;
+
+    public void setMarks(int mark, int subjectNumber) {
+        if (subjectNumber >= 0 && subjectNumber < marks.length && mark > 0) {
+            marks[subjectNumber] = mark;
         }
     }
-    public int[] getMarks(){
+
+    public int[] getMarks() {
         return marks;
     }
 
     //Получить отметк по отдельному предмету
-    public int getMark(int index){
-        if(index>=0 && index<marks.length){
+    public int getMark(int index) {
+        if (index >= 0 && index < marks.length) {
             return marks[index];
-        }else{
+        } else {
             return 0;
         }
     }
-    public void printMarks(){
-        for(int i=0;i<marks.length;i++){
+
+    public void printMarks() {
+        for (int i = 0; i < marks.length; i++) {
             System.out.println(marks[i]);
         }
-    }
-    public void print() {
-        System.out.println(toString());
     }
 
 
@@ -91,7 +91,9 @@ public class Student {
                 count++;
             }
         }
-        if(count==0){ isExcellentStudent=true;}
+        if (count == 0) {
+            isExcellentStudent = true;
+        }
         return isExcellentStudent;
     }
 
@@ -100,8 +102,8 @@ public class Student {
     public String toString() {
         return "Surname " + surname
                 + ", initials " + initials
-                + ", groupNumber " + groupNumber+" marks "+marks[0]+"; "+marks[1]
-                +"; "+marks[2]+"; "+marks[3];
+                + ", groupNumber " + groupNumber + " marks " + marks[0] + "; " + marks[1]
+                + "; " + marks[2] + "; " + marks[3];
     }
 
     @Override
@@ -114,18 +116,18 @@ public class Student {
             return false;
         }
         Student other = (Student) object;
-        boolean sameMark= getMarks().equals(other.getMarks());
-        return  sameMark && surname.equals(other.surname) && initials.equals(other.initials)&& groupNumber==other.groupNumber;
+        boolean sameMark = getMarks().equals(other.getMarks());
+        return sameMark && surname.equals(other.surname) && initials.equals(other.initials) && groupNumber == other.groupNumber;
     }
 
     @Override
-    public int hashCode(){
-        final int prime=31;
-        int result=1;
+    public int hashCode() {
+        final int prime = 31;
+        int result = 1;
 
-        result=prime*result+((surname==null)?0:surname.hashCode());
-        result=prime*result+((initials==null)?0:initials.hashCode());
-        result=prime*result+groupNumber;
+        result = prime * result + ((surname == null) ? 0 : surname.hashCode());
+        result = prime * result + ((initials == null) ? 0 : initials.hashCode());
+        result = prime * result + groupNumber;
         result = (prime * result) + getGroupNumber();
 
         return result;

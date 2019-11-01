@@ -105,7 +105,7 @@ public class Airplane {
 
     @Override
     public int hashCode(){
-        int number=10;
+        int number=31;
         int result=1;
 
         result=number+((destination==null)?0:destination.hashCode());

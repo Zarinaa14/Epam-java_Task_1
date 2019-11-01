@@ -1,112 +1,83 @@
 package com.epam.training.zaryna;
 
-import java.util.Random;
-
 public class BookArray {
-    public Book[] arrayOfBook;
-    Random random = new Random();
 
-    public BookArray(int size) {
-        if (size > 0) {
-            arrayOfBook = new Book[size];
-            for (int i = 0; i < size; i++) {
-                arrayOfBook[i] = new Book();
-            }
-        }
+    public Book[] books = new Book[0];
+
+
+    public BookArray() {
+        setBooks(books);
     }
 
-    public void setArrayOfBooks(Book[] array) {
-        if (array != null) {
-            arrayOfBook = new Book[array.length];
-
-            for (int i = 0; i < array.length; i++) {
-                arrayOfBook[i] = array[i];
-            }
-        }
+    public void setBooks(Book[] array) {
+        books = array;
     }
 
-    public Book[] getArrayOfBooks() {
-        return arrayOfBook;
-    }
-
-    public int getSize() {
-        if (arrayOfBook != null) {
-            return arrayOfBook.length;
-        } else {
-            return 0;
-        }
-    }
-
-    public void runBook(String[] name, String[] autor, String[] publish, String[] typePereplet, int[] numberPage, int[] price, int[] publish_year) {
-        for (int i = 0; i < 10; i++) {
-            arrayOfBook[i] = new Book(name[random.nextInt(7)], autor[random.nextInt(7)], publish[random.nextInt(7)], typePereplet[random.nextInt(7)], numberPage[random.nextInt(7)], price[random.nextInt(7)], publish_year[random.nextInt(7)]);
-
-        }
+    public Book[] getBooks() {
+        return books;
     }
 
 
-    public void getBooksOfAuthor(String author) {
-        if (arrayOfBook == null) {
-            throw new IllegalArgumentException("Книги отсутствуют! (null)");
-        }
-        for (Book book : arrayOfBook) {
-            if (book.getAuthor().equals(author)) {
-                book.print();
-            }
-        }
-    }
-
-    public void getBooksOfPublish(String publish) {
-        if (arrayOfBook == null) {
-            throw new IllegalArgumentException("Книги отсутствуют! (null)");
-        }
-        for (Book book : arrayOfBook) {
-            if (book.getPublishing().equals(publish)) {
-                book.print();
-            }
-        }
+    public int getLengthBook() {
+        return books.length;
     }
 
 
-    public void getPublish_year(int year) {
-        if (arrayOfBook == null) {
-            throw new IllegalArgumentException("Книг нет");
-        }
-        for (Book book : arrayOfBook) {
-            if (book.getPublish_year() > year) {
-                book.print();
-            }
-        }
-    }
-
-    public Book[] getArrayOfBook() {
-        return arrayOfBook;
-    }
-
-    public Book getBook(int index) {
-        if (index >= 0 && index < getSize()) {
-            return arrayOfBook[index];
+    public Book getBooksIndex(int index) {
+        if (index >= 0 && index < books.length) {
+            return books[index];
         } else {
             throw new IllegalArgumentException("Индекс выходит за пределы массива!");
         }
     }
 
-    public void print() {
-        System.out.println(toString());
+
+    public Book[] getArrayOfBooks() {
+        return books;
     }
+
+
+    public Book getAirplane(int index) {
+        if (index >= 0 && index < getLengthBook()) {
+            return books[index];
+        } else {
+            throw new IllegalArgumentException("Выход за пределы массива!");
+        }
+    }
+
+
+    public Book[] addAirline(Book airline) {
+        if (books == null) {
+            throw new IllegalArgumentException("Массив нулевой длины");
+        }
+        Book[] newAirlines = new Book[getLengthBook() + 1];
+
+        for (int i = 0; i < getLengthBook(); i++) {
+            newAirlines[i] = books[i];
+        }
+        newAirlines[getLengthBook()] = airline;
+        books = newAirlines;
+        return newAirlines;
+
+    }
+
+
+    public void print() {
+        System.out.println(this);
+    }
+
 
     @Override
     public String toString() {
-        if (arrayOfBook != null) {
-            String res = new String();
-            for (Book customer : arrayOfBook) {
-                res += customer.toString() + "\n";
+        if (books.length > 0) {
+            StringBuilder res = new StringBuilder();
+            for (Book airplane : books) {
+                res.append(airplane);
+                res.append("\n");
             }
-
-            return res;
-
+            return res.toString();
         } else {
-            return "Книг нет!";
+            return "Покупатели отсутствуют!";
         }
     }
 
@@ -123,10 +94,10 @@ public class BookArray {
 
         BookArray other = (BookArray) obj;
 
-        boolean isEqual = other.getSize() == getSize();
+        boolean isEqual = other.getLengthBook() == getLengthBook();
 
-        for (int i = 0; isEqual && i < getSize(); i++) {
-            if (!arrayOfBook[i].equals(other.getArrayOfBooks()[i])) {
+        for (int i = 0; isEqual && i < getLengthBook(); i++) {
+            if (!books[i].equals(other.getArrayOfBooks()[i])) {
                 isEqual = false;
             }
         }
@@ -138,8 +109,8 @@ public class BookArray {
         int number = 10;
         int result = 1;
 
-        for (int i = 0; i < getSize(); i++) {
-            result = number * result + arrayOfBook[i].hashCode();
+        for (int i = 0; i < getLengthBook(); i++) {
+            result = number * result + books[i].hashCode();
         }
 
         return result;

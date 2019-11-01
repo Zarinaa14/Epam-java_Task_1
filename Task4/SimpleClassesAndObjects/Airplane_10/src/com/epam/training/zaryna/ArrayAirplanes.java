@@ -10,132 +10,82 @@ package com.epam.training.zaryna;
     4) добавление/удаление рейса
  */
 
-import java.util.Random;
-
 public class ArrayAirplanes {
 
-    private Airplane[] arrayOfAirplane;
-    Random random = new Random();
+    public Airplane[] airplanes = new Airplane[0];
 
-    public ArrayAirplanes(int size) {
-        if (size > 0) {
-            arrayOfAirplane = new Airplane[size];
-            for (int i = 0; i < size; i++) {
-                arrayOfAirplane[i] = new Airplane();
-            }
-        }
+    public ArrayAirplanes() {
+        setAirplanes(airplanes);
     }
 
-    private int age =25;
-    private float age2=56f;
-    double result=age+age2;
-    int i=(int)age2;
-
-    public ArrayAirplanes(Airplane[] array) {
-        setArrayOfAirlines(array);
+    public void setAirplanes(Airplane[] array) {
+        airplanes = array;
     }
 
-    protected void setArrayOfAirlines(Airplane[] array) {
-        if (array != null) {
-            arrayOfAirplane = new Airplane[array.length];
-            for (int i = 0; i < getSize(); i++) {
-                arrayOfAirplane[i] = array[i];
-            }
-        }
+    public Airplane[] getAirplanes() {
+        return airplanes;
     }
 
-    protected int getSize() {
-        if (arrayOfAirplane != null) {
-            return arrayOfAirplane.length;
+
+    public int getLengthArrayOfAirplanes() {
+        return airplanes.length;
+    }
+
+
+    public Airplane getAirplanes(int index) {
+        if (index >= 0 && index < airplanes.length) {
+            return airplanes[index];
         } else {
-            return 0;
+            throw new IllegalArgumentException("Индекс выходит за пределы массива!");
         }
     }
 
-    protected Airplane[] getArrayOfAirlines() {
-        return arrayOfAirplane;
+
+    public Airplane[] getArrayOfAirplanes() {
+        return airplanes;
     }
 
-    public Airplane getAirplane(int index) {
-        if (index >= 0 && index < getSize()) {
-            return arrayOfAirplane[index];
+
+    public Airplane getIndexAirplane(int index) {
+        if (index >= 0 && index < getLengthArrayOfAirplanes()) {
+            return airplanes[index];
         } else {
             throw new IllegalArgumentException("Выход за пределы массива!");
         }
     }
 
-    protected void print() {
-        System.out.println(toString());
+    public void print() {
+        System.out.println(this);
     }
 
-    // Возвращает рейсы в указанный пункт назначений.
-    protected void getFlightsToDestination(String destination) {
-        for (Airplane airline : arrayOfAirplane) {
-            if (airline.getDestination().equals(destination)) {
-                airline.print();
-            }
+
+    public Airplane[] addAirline(Airplane airline) {
+        if (airplanes == null) {
+            throw new IllegalArgumentException("Массив нулевой длины");
         }
-    }
+        Airplane[] newAirlines = new Airplane[getLengthArrayOfAirplanes() + 1];
 
-    protected void getDays(String day) {
-        for (Airplane airline : arrayOfAirplane) {
-            if (airline.getDays().equals(day)) {
-                airline.print();
-            }
+        for (int i = 0; i < getLengthArrayOfAirplanes(); i++) {
+            newAirlines[i] = airplanes[i];
         }
-    }
-
-    private Time getTime() {
-        Time time = new Time();
-        int[] arrayHours =   {2, 4, 7, 9, 10, 15, 8, 13, 16, 18};
-        int[] arrayMinutes = {23, 44, 17, 49, 10, 15, 28, 53, 16, 18};
-        int[] arraySeconds = {23, 44, 17, 49, 10, 15, 28, 53, 16, 18};
-        time.setTime(arrayHours[random.nextInt(10)], arrayMinutes[random.nextInt(10)], arraySeconds[random.nextInt(10)]);
-        return time;
-    }
-
-    protected void getRandomAirline(String[] arrayOfDestination, int[] arrayFlightNumber, String[] arrayPlaneType, String[] arrayOfDays) {
-        for (int i = 0; i < 10; i++) {
-            Time randomTime = getTime();
-            arrayOfAirplane[i] = new Airplane(arrayOfDestination[random.nextInt(10)], arrayFlightNumber[random.nextInt(10)], arrayPlaneType[random.nextInt(7)], randomTime, arrayOfDays[random.nextInt(7)]);
-        }
-    }
-
-    protected void addAirline(Airplane airline) {
-        if (airline != null) {
-            Airplane[] newAirlines = new Airplane[getSize() + 1];
-
-            for (int i = 0; i < getSize(); i++) {
-                newAirlines[i] = arrayOfAirplane[i];
-            }
-            newAirlines[getSize()] = airline;
-            arrayOfAirplane = newAirlines;
-        }
-    }
-
-    // Возвращает рейсы в указанный день недели после заданного времени.
-    protected void getFlightsForDay(String day, Time time) {
-        for (Airplane airline : arrayOfAirplane) {
-            if (airline.getDays().equals(day)&&time.compareTo(airline.getTimeOfAppointment()) > 0) {
-                airline.print();
-            }
-        }
+        newAirlines[getLengthArrayOfAirplanes()] = airline;
+        airplanes = newAirlines;
+        return newAirlines;
 
     }
+
 
     @Override
     public String toString() {
-        if (arrayOfAirplane != null) {
-            String string = new String();
-
-            for (Airplane airline : arrayOfAirplane) {
-                string += airline.toString() + "\n";
+        if (airplanes.length > 0) {
+            StringBuilder res = new StringBuilder();
+            for (Airplane airplane : airplanes) {
+                res.append(airplane);
+                res.append("\n");
             }
-
-            return string;
-
+            return res.toString();
         } else {
-            return "Рейсы отсутствуют!";
+            return "Покупатели отсутствуют!";
         }
     }
 
@@ -151,10 +101,10 @@ public class ArrayAirplanes {
 
         ArrayAirplanes other = (ArrayAirplanes) obj;
 
-        boolean isEqual = (other.getSize() == getSize());
+        boolean isEqual = (other.getLengthArrayOfAirplanes() == getLengthArrayOfAirplanes());
 
-        for (int i = 0; isEqual && i < getSize(); i++) {
-            if (!arrayOfAirplane[i].equals(other.getArrayOfAirlines()[i])) {
+        for (int i = 0; isEqual && i < getLengthArrayOfAirplanes(); i++) {
+            if (!airplanes[i].equals(other.getArrayOfAirplanes()[i])) {
                 isEqual = false;
             }
         }
@@ -164,10 +114,10 @@ public class ArrayAirplanes {
 
     @Override
     public int hashCode() {
-        final int number = 10;
+        final int number = 31;
         int result = 1;
-        for (int i = 0; i < getSize(); i++) {
-            result = number * result + arrayOfAirplane[i].hashCode();
+        for (int i = 0; i < getLengthArrayOfAirplanes(); i++) {
+            result = number * result + airplanes[i].hashCode();
         }
         return result;
     }

@@ -15,23 +15,13 @@ import java.util.Scanner;
 public class RunAirplane {
 
     public static void main(String[] args) {
-        ArrayAirplanes arrayAirplanes = new ArrayAirplanes(10);
+        ArrayAirplanes arrayAirplanes = new ArrayAirplanes();
 
-        String[] arrayPlaneType = {"Airbus A330", "Boeing-737", "Airbus A567", "Boeing-747", "Boeing-777", "Boeing-767", "Boeing-524", "Airbus B567", "Airbus H876"};
-        int[] arrayFlightNumber = {4533, 5543, 7654, 9876, 3211, 2345, 4456, 5456, 5443, 6676};
-        String[] arrayOfDestination = {"Minsk", "Moscow", "Poland", "Italy", "Spain", "Egypt", "France", "Netherlands", "Russia", "Ukraine"};
-        String[] arrayOfDays = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
+      AirplaneActions action =new AirplaneActions();
 
-        arrayAirplanes.getRandomAirline(arrayOfDestination, arrayFlightNumber, arrayPlaneType, arrayOfDays);
+        arrayAirplanes=action.getRandomAirline(6);
         arrayAirplanes.print();
         Info info =new Info();
-        //arrayAirlines.getFlightsToDestination("Minsk");
-        //System.out.println("_____________________________________");
-        //arrayAirlines.getDays("Wednesday");
-        //System.out.println("_____________________________________");
-        //arrayAirlines.getFlightsForDay("Thursday", "01:00:00");
-        //arrayAirlines.getFlightsForDay("Monday", "01:00:00");
-        //arrayAirlines.getFlightsForDay("Tuesday", "01:00:00");
         int choice = 1;
         while (choice != 5) {
             Scanner scanner = new Scanner(System.in);
@@ -42,7 +32,9 @@ public class RunAirplane {
                 System.out.println("Задайте любой пункта назначения с большой буквы, который написан выше: \n");
                 String destination = scanner.next();
                 System.out.println("Данные по заданному пункту назначения: ");
-                arrayAirplanes.getFlightsToDestination(destination);
+                ArrayAirplanes newArrayAirplanes = new ArrayAirplanes();
+                newArrayAirplanes=action.getFlightsToDestination(arrayAirplanes,destination);
+                newArrayAirplanes.print();
                 info.printLine();
                 continue;
             }
@@ -50,7 +42,9 @@ public class RunAirplane {
                 info.printDayOfWeek();
                 String day = scanner.next();
                 System.out.println("Данные по заданному дню недели: ");
-                arrayAirplanes.getDays(day);
+                ArrayAirplanes newArrayAirplanes = new ArrayAirplanes();
+                newArrayAirplanes=action .getDays(arrayAirplanes,day);
+                newArrayAirplanes.print();
                 info.printLine();
                 continue;
             }
@@ -65,8 +59,16 @@ public class RunAirplane {
                 int s = scanner.nextInt();
                 if(h<25&&m<61&&h<61&&h>=0&&m>=0&&s>=0) {
                     System.out.println("Данные по заданному дню недели,время вылета для которых больше заданного: ");
-                    arrayAirplanes.getFlightsForDay(day, new Time(h, m, s));
-                }else System.out.println("Неверный формат данных ");
+                    ArrayAirplanes newArrayAirplanes = new ArrayAirplanes();
+                    newArrayAirplanes= action.getFlightsForDay(arrayAirplanes,day, new Time(h, m, s));
+                    newArrayAirplanes.print();
+                }else System.out.println("Неверный формат времени ");
+                info.printLine();
+                continue;
+            }
+            if (choice == 4) {
+                info.printDayOfWeek();
+                arrayAirplanes.print();
                 info.printLine();
                 continue;
             }

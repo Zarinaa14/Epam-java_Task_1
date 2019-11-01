@@ -3,128 +3,75 @@ package com.epam.training.zaryna;
 import java.util.Random;
 
 public class ArrayOfTrains {
-    public Train[] arrayOfTrain;
 
-    public ArrayOfTrains(int size) {
-        if (size > 0) {
-            arrayOfTrain = new Train[size];
-            for (int i = 0; i < size; i++) {
-                arrayOfTrain[i] = new Train();
-            }
-        }
+    public Train[] trains = new Train[0];
+
+    public ArrayOfTrains() {
+        setTrains(trains);
     }
 
-    public void getRandomTrains(String[] name, int[] number, int[] time) {
-        Random random = new Random();
-        for (int i = 0; i < 5; i++) {
-            arrayOfTrain[i] = new Train(name[random.nextInt(8)], number[random.nextInt(6)], time[random.nextInt(8)]);
-        }
+    public void setTrains(Train[] array) {
+        trains = array;
     }
 
-    public ArrayOfTrains(Train[] array) {
-        setArrayOfTrain(array);
-    }
-
-    public void print() {
-        System.out.println(toString());
+    public Train[] getTrains() {
+        return trains;
     }
 
 
-    public void setArrayOfTrain(Train[] array) {
-        if (array != null) {
-            arrayOfTrain = new Train[array.length];
-            for (int i = 0; i < getLength(); i++) {
-                arrayOfTrain[i] = array[i];
-            }
+    public int getLengthArrayOfTrains() {
+        return trains.length;
+    }
+
+
+    public Train getIndexTrains(int index) {
+        if (index >= 0 && index < trains.length) {
+            return trains[index];
+        } else {
+            throw new IllegalArgumentException("Индекс выходит за пределы массива!");
         }
     }
 
     public Train[] getArrayOfTrain() {
-        return arrayOfTrain;
+        return trains;
     }
 
-    public int getLength() {
-        if (arrayOfTrain != null) {
-            return arrayOfTrain.length;
-        } else {
-            return 0;
+
+    public void print() {
+        System.out.println(this);
+    }
+
+
+    public Train[] addTrains(Train airline) {
+        if (trains == null) {
+            throw new IllegalArgumentException("Массив нулевой длины");
         }
-    }
+        Train[] newTrains = new Train[getLengthArrayOfTrains() + 1];
 
-    public Train[] sortByNumberOfTrain() {
-        for (int i = 0; i < arrayOfTrain.length - 1; i++) {
-            for (int j = 0; j < arrayOfTrain.length - 1 - i; j++) {
-                int curr = arrayOfTrain[j].numberOfTrain;
-                int curr_1 = arrayOfTrain[j + 1].numberOfTrain;
-                if (curr > curr_1) {
-                    Train tmp = arrayOfTrain[j];
-                    arrayOfTrain[j] = arrayOfTrain[j + 1];
-                    arrayOfTrain[j + 1] = tmp;
-                }
-
-            }
+        for (int i = 0; i < getLengthArrayOfTrains(); i++) {
+            newTrains[i] = trains[i];
         }
-        return arrayOfTrain;
+        newTrains[getLengthArrayOfTrains()] = airline;
+        trains = newTrains;
+        return newTrains;
+
     }
 
-
-    public void printInfoByNumber(int number) {
-        for (int i = 0; i < arrayOfTrain.length; i++) {
-            if (arrayOfTrain[i].getTrainNumber() == number) {
-                arrayOfTrain[i].print();
-            }
-        }
-    }
-
-    public void sortByDestination() {
-        int stringCompare;
-
-        for (int i = 0; i < arrayOfTrain.length - 1; i++) {
-            for (int j = 0; j < arrayOfTrain.length - i - 1; j++) {
-                stringCompare = arrayOfTrain[j].nameOfTheDestination.compareTo(arrayOfTrain[j + 1].nameOfTheDestination);
-
-                if (stringCompare > 0) {
-                    Train temp;
-                    temp = arrayOfTrain[j];
-                    arrayOfTrain[j] = arrayOfTrain[j + 1];
-                    arrayOfTrain[j + 1] = temp;
-                } else {
-                    if (stringCompare == 0) {
-                        if (isIndexMoreThanIndex2(j, j + 1, arrayOfTrain)) {
-                            Train temp;
-                            temp = arrayOfTrain[j];
-                            arrayOfTrain[j] = arrayOfTrain[j + 1];
-                            arrayOfTrain[j + 1] = temp;
-                        }
-                    }
-                }
-            }
-        }
-    }
-
-    private boolean isIndexMoreThanIndex2(int index1, int index2, Train[] arrayOfTrain) {
-        if (arrayOfTrain[index1].departureTime > arrayOfTrain[index2].departureTime) {
-            return true;
-        } else {
-            return false;
-        }
-    }
 
     @Override
     public String toString() {
-        if (arrayOfTrain != null) {
-            String string = new String();
-
-            for (Train student : arrayOfTrain) {
-                string += student.toString() + "\n";
+        if (trains.length > 0) {
+            StringBuilder res = new StringBuilder();
+            for (Train train : trains) {
+                res.append(train);
+                res.append("\n");
             }
-
-            return string;
-
+            return res.toString();
         } else {
-            return "нет студентов";
+            return "Пассажиры отсутствуют!";
         }
     }
+
 
     @Override
     public boolean equals(Object obj) {
@@ -138,10 +85,10 @@ public class ArrayOfTrains {
 
         ArrayOfTrains other = (ArrayOfTrains) obj;
 
-        boolean isEqual = (other.getLength() == getLength());
+        boolean isEqual = (other.getLengthArrayOfTrains() == getLengthArrayOfTrains());
 
-        for (int i = 0; isEqual && i < getLength(); i++) {
-            if (!arrayOfTrain[i].equals(other.getArrayOfTrain()[i])) {
+        for (int i = 0; isEqual && i < getLengthArrayOfTrains(); i++) {
+            if (!trains[i].equals(other.getArrayOfTrain()[i])) {
                 isEqual = false;
             }
         }
@@ -153,8 +100,8 @@ public class ArrayOfTrains {
     public int hashCode() {
         final int number = 31;
         int result = 1;
-        for (int i = 0; i < getLength(); i++) {
-            result = number * result + arrayOfTrain[i].hashCode();
+        for (int i = 0; i < getLengthArrayOfTrains(); i++) {
+            result = number * result + trains[i].hashCode();
         }
         return result;
     }
