@@ -2,19 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb32942c-038f-4e69-9a94-4e792844d346" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../Task5/File/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Matrix/Matrix_3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Matrix/Matrix_3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Matrix/Matrix_3/src/com/epam/training/zaryna/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Matrix/Matrix_3/src/com/epam/training/zaryna/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Customer_8/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Customer_8/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Student_3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Student_3/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Task5/Calendar/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task5/Calendar/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Task5/File/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task5/File/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Task5/File/out/production/file_f/com/company/Directory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Task5/File/out/production/file_f/com/company/File.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Task5/File/out/production/file_f/com/company/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Task5/File/out/production/file_f/com/company/TextFile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Task5/File/src/com/epam/training/zaryna/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task5/File/src/com/epam/training/zaryna/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Task5/File/src/com/epam/training/zaryna/TextFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task5/File/src/com/epam/training/zaryna/TextFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Task5/Payment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task5/Payment/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Task5/Treasure/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task5/Treasure/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,7 +44,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/epam/training/zaryna/NumberAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1056">
+            <state relative-caret-position="146">
               <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
             </state>
           </provider>
@@ -75,9 +72,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="950" />
-    <option name="width" value="599" />
+    <option name="width" value="600" />
     <option name="height" value="525" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -88,7 +85,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -111,7 +108,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -174,10 +171,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="760" y="0" width="480" height="420" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2751678" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28809524" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -220,7 +217,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/epam/training/zaryna/NumberAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1056">
+        <state relative-caret-position="146">
           <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
         </state>
       </provider>

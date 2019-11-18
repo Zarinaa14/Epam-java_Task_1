@@ -2,19 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="669b30a3-a50e-4069-9d57-fd4fb18e625e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../File/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Task2/Decomposition/Program_15/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Task2/Decomposition/Program_15/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Task2/Matrix/Matrix_3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Task2/Matrix/Matrix_3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Task2/Matrix/Matrix_3/src/com/epam/training/zaryna/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Task2/Matrix/Matrix_3/src/com/epam/training/zaryna/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Task4/SimpleClassesAndObjects/Customer_8/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Task4/SimpleClassesAndObjects/Customer_8/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Task4/SimpleClassesAndObjects/Student_3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Task4/SimpleClassesAndObjects/Student_3/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../File/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../File/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../File/out/production/file_f/com/company/Directory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../File/out/production/file_f/com/company/File.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../File/out/production/file_f/com/company/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../File/out/production/file_f/com/company/TextFile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../File/src/com/epam/training/zaryna/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../File/src/com/epam/training/zaryna/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../File/src/com/epam/training/zaryna/TextFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../File/src/com/epam/training/zaryna/TextFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Payment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Payment/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Treasure/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Treasure/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,7 +32,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/epam/training/zaryna/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1166">
+            <state relative-caret-position="170">
               <caret line="53" column="70" selection-start-line="53" selection-start-column="70" selection-end-line="53" selection-end-column="70" />
             </state>
           </provider>
@@ -133,9 +130,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="950" />
-    <option name="width" value="599" />
+    <option name="width" value="600" />
     <option name="height" value="525" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -144,8 +141,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -168,6 +163,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -231,10 +228,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2671141" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.07919463" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -270,6 +267,20 @@
     <entry file="file://$PROJECT_DIR$/src/com/company/DayOfWeek.java" />
     <entry file="file://$PROJECT_DIR$/src/com/company/Months.java" />
     <entry file="file://$PROJECT_DIR$/src/com/company/DareComparator.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/epam/training/zaryna/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="53" column="70" selection-start-line="53" selection-start-column="70" selection-end-line="53" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epam/training/zaryna/Info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="60" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/epam/training/zaryna/Calendar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -295,20 +306,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/epam/training/zaryna/Info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="60" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/epam/training/zaryna/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1166">
-          <caret line="53" column="70" selection-start-line="53" selection-start-column="70" selection-end-line="53" selection-end-column="70" />
         </state>
       </provider>
     </entry>

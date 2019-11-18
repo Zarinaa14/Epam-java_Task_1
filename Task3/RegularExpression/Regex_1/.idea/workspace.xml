@@ -2,29 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18d5bbca-98a4-4dd1-9a3c-30c81c9a6f12" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../StringAsObject/StringObject_1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../StringAsObject/StringObject_2/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Task_2/Arrays/Task2_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task_2/Arrays/Task2_1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Task_2/Arrays/Task2_1/src/com/epam/training/zaryna/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task_2/Arrays/Task2_1/src/com/epam/training/zaryna/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Task_2/Decomposition/Program_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task_2/Decomposition/Program_1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Task_2/Decomposition/Program_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task_2/Decomposition/Program_2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Task2/Decomposition/Program_15/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task2/Decomposition/Program_15/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Task2/Matrix/Matrix_3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task2/Matrix/Matrix_3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Task2/Matrix/Matrix_3/out/production/Matrix_3/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Task2/Matrix/Matrix_3/src/com/epam/training/zaryna/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task2/Matrix/Matrix_3/src/com/epam/training/zaryna/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/epam/training/zaryna/Info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/epam/training/zaryna/Info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/epam/training/zaryna/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/epam/training/zaryna/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Regex_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Regex_2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../StringArrays/StringArray_3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../StringArrays/StringArray_3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../StringArrays/StringArray_3/src/com/epam/training/zaryna/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../StringArrays/StringArray_3/src/com/epam/training/zaryna/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../StringArrays/StringArray_4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../StringArrays/StringArray_4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../StringArrays/StringArray_4/src/com/epam/training/zaryna/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../StringArrays/StringArray_4/src/com/epam/training/zaryna/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../StringArrays/StringArray_5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../StringArrays/StringArray_5/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../StringArrays/StringArray_5/src/com/epam/training/zaryna/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../StringArrays/StringArray_5/src/com/epam/training/zaryna/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../StringArrays/stringArray_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../StringArrays/stringArray_1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../StringArrays/stringArray_1/src/com/epam/training/zaryna/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../StringArrays/stringArray_1/src/com/epam/training/zaryna/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../StringArrays/stringArray_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../StringArrays/stringArray_2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../StringArrays/stringArray_2/src/com/epam/training/zaryna/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../StringArrays/stringArray_2/src/com/epam/training/zaryna/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../StringAsObject/StringObject_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../StringAsObject/StringObject_1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../StringAsObject/StringObject_1/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../StringAsObject/StringObject_1/src/com/epam/training/zaryna/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../StringAsObject/StringObject_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../StringAsObject/StringObject_2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../StringAsObject/StringObject_2/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../StringAsObject/StringObject_2/src/com/epam/training/zaryna/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Regex_2/out/production/Regex_2/com/epam/training/zaryna/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Regex_2/out/production/Regex_2/com/epam/training/zaryna/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Regex_2/src/com/epam/training/zaryna/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Regex_2/src/com/epam/training/zaryna/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Customer_8/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Customer_8/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Student_3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task4/SimpleClassesAndObjects/Student_3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Task5/Calendar/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task5/Calendar/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Task5/File/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task5/File/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Task5/Payment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task5/Payment/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Task5/Treasure/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Task5/Treasure/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,8 +39,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/epam/training/zaryna/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="32" />
+            <state relative-caret-position="418">
+              <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -55,7 +49,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/epam/training/zaryna/Info.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="176">
-              <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -63,8 +57,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/epam/training/zaryna/Action.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="-3914">
+              <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,8 +88,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
         <option value="$PROJECT_DIR$/src/com/epam/training/zaryna/Action.java" />
-        <option value="$PROJECT_DIR$/src/com/epam/training/zaryna/Info.java" />
         <option value="$PROJECT_DIR$/src/com/epam/training/zaryna/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/epam/training/zaryna/Info.java" />
       </list>
     </option>
   </component>
@@ -111,6 +105,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -133,13 +128,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Regex_2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -206,7 +200,7 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.25637585" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.25973153" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Version Control" order="1" />
@@ -254,8 +248,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/epam/training/zaryna/Action.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="-3914">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -265,14 +259,14 @@
     <entry file="file://$PROJECT_DIR$/src/com/epam/training/zaryna/Info.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/epam/training/zaryna/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="32" />
+        <state relative-caret-position="418">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
         </state>
       </provider>
     </entry>
